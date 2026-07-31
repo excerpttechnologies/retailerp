@@ -1,0 +1,5369 @@
+{
+  "Settings": {
+    "Business Masters": {
+      "tables": [
+        [
+          {
+            "Business Name": "OMSHREE FABS (TEMPLE FABRICS , SILKS AND SAREES)",
+            "Zip Code": "560098",
+            "State": "Karnataka",
+            "City": "Bangalore Urban",
+            "Is Active": "Active",
+            "Action": ""
+          },
+          {
+            "Business Name": "SUVARNA FABRICS",
+            "Zip Code": "560004",
+            "State": "Karnataka",
+            "City": "Bangalore Urban",
+            "Is Active": "Active",
+            "Action": ""
+          },
+          {
+            "Business Name": "TEMPLE FABRICS, SILKS & SAREES",
+            "Zip Code": "560102",
+            "State": "Karnataka",
+            "City": "Bangalore Urban",
+            "Is Active": "Active",
+            "Action": ""
+          },
+          {
+            "Business Name": "Temple Fabrics",
+            "Zip Code": "560011",
+            "State": "Karnataka",
+            "City": "Bangalore Urban",
+            "Is Active": "Active",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [
+        {
+          "url": "https://erp.orbiteerp.com/assets/logo-BTqonWkM.png",
+          "file": "scraped_data\\images\\Settings_Business_Masters_1.png",
+          "alt": "",
+          "title": ""
+        }
+      ],
+      "screenshot": "scraped_data\\screenshots\\Settings_Business_Masters.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Company Locations": {
+      "tables": [
+        [
+          {
+            "Name": "Temple Fabrics C2",
+            "Landmark": "",
+            "Zip Code": "560",
+            "State": "Karnataka",
+            "City": "Bangalore Urban",
+            "Business": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Name": "TEMPLE FABRIC JNR",
+            "Landmark": "",
+            "Zip Code": "560011",
+            "State": "Karnataka",
+            "City": "Bangalore Urban",
+            "Business": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Name": "Temple Fabrics Warehouse",
+            "Landmark": "",
+            "Zip Code": "560011",
+            "State": "Karnataka",
+            "City": "Bangalore Urban",
+            "Business": "Temple Fabrics",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Company_Locations.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Ledger Group": {
+      "tables": [
+        [
+          {
+            "Name": "Assets",
+            "Is Active": "Active",
+            "Parent": "",
+            "Action": ""
+          },
+          {
+            "Name": "Bank Accounts",
+            "Is Active": "Active",
+            "Parent": "Assets",
+            "Action": ""
+          },
+          {
+            "Name": "Bank OCC A/c",
+            "Is Active": "Active",
+            "Parent": "Assets",
+            "Action": ""
+          },
+          {
+            "Name": "Cash Accounts",
+            "Is Active": "Active",
+            "Parent": "Assets",
+            "Action": ""
+          },
+          {
+            "Name": "CASH ON HAND",
+            "Is Active": "Active",
+            "Parent": "Cash Accounts",
+            "Action": ""
+          },
+          {
+            "Name": "Current Assets",
+            "Is Active": "Active",
+            "Parent": "Assets",
+            "Action": ""
+          },
+          {
+            "Name": "Deposits",
+            "Is Active": "Active",
+            "Parent": "Assets",
+            "Action": ""
+          },
+          {
+            "Name": "Fixed Assets",
+            "Is Active": "Active",
+            "Parent": "Assets",
+            "Action": ""
+          },
+          {
+            "Name": "Investments",
+            "Is Active": "Active",
+            "Parent": "Assets",
+            "Action": ""
+          },
+          {
+            "Name": "Loans & Advances",
+            "Is Active": "Active",
+            "Parent": "Assets",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Ledger_Group.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Ledger": {
+      "tables": [
+        [
+          {
+            "Name": "Jyothi A/C",
+            "Group": "Sundry Debtors",
+            "Is Active": "Active",
+            "Default": "No",
+            "Balance": "0.00",
+            "Opening Balance": "0",
+            "Action": ""
+          },
+          {
+            "Name": "AHUJA TEXTILES A/C",
+            "Group": "Sundry Creditors",
+            "Is Active": "Active",
+            "Default": "No",
+            "Balance": "0.00",
+            "Opening Balance": "0",
+            "Action": ""
+          },
+          {
+            "Name": "PARAS SILK EMPORIUM A/C",
+            "Group": "Sundry Creditors",
+            "Is Active": "Active",
+            "Default": "No",
+            "Balance": "0.00",
+            "Opening Balance": "0",
+            "Action": ""
+          },
+          {
+            "Name": "ZARA Collection, VARANASI A/C",
+            "Group": "Sundry Creditors",
+            "Is Active": "Active",
+            "Default": "No",
+            "Balance": "0.00",
+            "Opening Balance": "0",
+            "Action": ""
+          },
+          {
+            "Name": "Suvarna Fabrics DVG A/C",
+            "Group": "Sundry Debtors",
+            "Is Active": "Active",
+            "Default": "No",
+            "Balance": "0.00",
+            "Opening Balance": "0",
+            "Action": ""
+          },
+          {
+            "Name": "M B SAREES PVT LTD A/C",
+            "Group": "Sundry Creditors",
+            "Is Active": "Active",
+            "Default": "No",
+            "Balance": "0.00",
+            "Opening Balance": "0",
+            "Action": ""
+          },
+          {
+            "Name": "Bank AC",
+            "Group": "Bank Accounts",
+            "Is Active": "Active",
+            "Default": "No",
+            "Balance": "0.00",
+            "Opening Balance": "0",
+            "Action": ""
+          },
+          {
+            "Name": "OMSHREE FABS A/C",
+            "Group": "Sundry Debtors",
+            "Is Active": "Active",
+            "Default": "No",
+            "Balance": "0.00",
+            "Opening Balance": "0",
+            "Action": ""
+          },
+          {
+            "Name": "SHREYAS MADHAVA A/C",
+            "Group": "Sundry Debtors",
+            "Is Active": "Active",
+            "Default": "No",
+            "Balance": "0.00",
+            "Opening Balance": "0",
+            "Action": ""
+          },
+          {
+            "Name": "RATHAN BANDHU SURAT A/C",
+            "Group": "Sundry Creditors",
+            "Is Active": "Active",
+            "Default": "No",
+            "Balance": "0.00",
+            "Opening Balance": "0",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Ledger.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Ledger Mapping": {
+      "tables": [
+        [
+          {
+            "Purpose": "Tax Master",
+            "Ledger Group": "Duties & Taxes {--Liabilities}"
+          },
+          {
+            "Purpose": "Purchase Charge Master",
+            "Ledger Group": "Select Ledger Group"
+          },
+          {
+            "Purpose": "Sales Charge Master",
+            "Ledger Group": "Select Ledger Group"
+          },
+          {
+            "Purpose": "Loyalty Point",
+            "Ledger Group": "Select Ledger Group"
+          },
+          {
+            "Purpose": "Payment Method",
+            "Ledger Group": "Bank Accounts {--Assets}"
+          },
+          {
+            "Purpose": "Cash Payment Method",
+            "Ledger Group": "CASH ON HAND {--Cash Accounts}"
+          },
+          {
+            "Purpose": "Purchases Accounts",
+            "Ledger Group": "Select Ledger Group"
+          },
+          {
+            "Purpose": "Purchases Return",
+            "Ledger Group": "Select Ledger Group"
+          },
+          {
+            "Purpose": "TDS",
+            "Ledger Group": "Select Ledger Group"
+          },
+          {
+            "Purpose": "Sales Accounts",
+            "Ledger Group": "Select Ledger Group"
+          },
+          {
+            "Purpose": "Sales Return",
+            "Ledger Group": "Select Ledger Group"
+          },
+          {
+            "Purpose": "Supplier Payment",
+            "Ledger Group": "Select Ledger Group"
+          },
+          {
+            "Purpose": "Round Off",
+            "Ledger Group": "Select Ledger Group"
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Ledger_Mapping.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Ledger Setting": {
+      "tables": [
+        [
+          {
+            "Purpose": "Round Off",
+            "Ledger": "Select Ledger"
+          },
+          {
+            "Purpose": "Sales Accounts",
+            "Ledger": "Select Ledger"
+          },
+          {
+            "Purpose": "Sales Rerurn",
+            "Ledger": "Select Ledger"
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Ledger_Setting.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Voucher Settings": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Voucher_Settings.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Doc Setup": {
+      "tables": [
+        [
+          {
+            "Name": "iner store",
+            "Type": "Stock Transfer Received",
+            "Prefix": "26/jnr/",
+            "Suffix": "",
+            "Start From": "1",
+            "Validity": "Never",
+            "Fin Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Name": "Inter comp Inv",
+            "Type": "Inter Company Sales Invoice",
+            "Prefix": "TFJ/26/",
+            "Suffix": "",
+            "Start From": "60",
+            "Validity": "Yearly",
+            "Fin Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Name": "interstore dly challan",
+            "Type": "Inter Company Delivery Challan",
+            "Prefix": "WH/DC/26/",
+            "Suffix": "",
+            "Start From": "639",
+            "Validity": "Never",
+            "Fin Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Name": "stk adj",
+            "Type": "Stock Adjustment",
+            "Prefix": "26/",
+            "Suffix": "",
+            "Start From": "1",
+            "Validity": "Never",
+            "Fin Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Name": "DN",
+            "Type": "Debit Note",
+            "Prefix": "TFJ/[YY]/",
+            "Suffix": "",
+            "Start From": "68",
+            "Validity": "Never",
+            "Fin Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Name": "GRT",
+            "Type": "GRT",
+            "Prefix": "TFJ/[YY]/",
+            "Suffix": "",
+            "Start From": "68",
+            "Validity": "Never",
+            "Fin Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Name": "Split Item",
+            "Type": "Item Split",
+            "Prefix": "SPI/[FYY]/",
+            "Suffix": "",
+            "Start From": "100",
+            "Validity": "Never",
+            "Fin Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Name": "PI",
+            "Type": "Purchase Invoice",
+            "Prefix": "[YY]/",
+            "Suffix": "",
+            "Start From": "182",
+            "Validity": "Never",
+            "Fin Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Name": "WH STL",
+            "Type": "Stock Transfer Location",
+            "Prefix": "WH/[YY]/",
+            "Suffix": "",
+            "Start From": "1",
+            "Validity": "Never",
+            "Fin Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Name": "wh stp to jnr",
+            "Type": "Stock Transfer Packet",
+            "Prefix": "WH/[YY]/",
+            "Suffix": "",
+            "Start From": "1",
+            "Validity": "Never",
+            "Fin Year": "2026-2027",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Doc_Setup.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Purchase Group Master": {
+      "tables": [
+        [
+          {
+            "Group Name": "VIMARSH",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Group Name": "CRK",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Group Name": "CNA,CPN",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Group Name": "CNA,PS",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Group Name": "CRN,PS",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Group Name": "CRN,CNA",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Group Name": "POOJA SHREYAS",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Group Name": "GENERAL",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Group Name": "CNA",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Group Name": "CRN",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Purchase_Group_Master.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Goods Type Master": {
+      "tables": [
+        [
+          {
+            "Goods Name": "Accessories",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Goods Name": "Tailoring Services",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Goods Name": "REadymade",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Goods Name": "Finished Goods",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Goods Name": "REadymade",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Goods Name": "Goods Type d",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Goods Name": "Goods Type c",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Goods Name": "Goods Type b",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Goods Name": "goods d",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Goods Name": "goods c",
+            "Business": "Temple Fabrics",
+            "Status": "Active",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Goods_Type_Master.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Stock Point Master": {
+      "tables": [
+        [
+          {
+            "Stockpoint Name": "Warehouse",
+            "Type Name": "Warehouse",
+            "Status": "Active",
+            "Parent": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Stock_Point_Master.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Pos Counter Master": {
+      "tables": [
+        [
+          {
+            "Counter Name": "No Data..",
+            "Invoice Layout": "",
+            "Is Active": "",
+            "Repeat Invoice": "",
+            "Business": "",
+            "Location": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Pos_Counter_Master.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Barcode Settings": {
+      "tables": [
+        [
+          {
+            "Type": "PERIODIC",
+            "Sub Type": "MONTHLY",
+            "Prefix": "4A",
+            "Suffix": "",
+            "Start Number": "1000",
+            "Sample Barcode": "4A1000",
+            "Effective Date": "01-04-2026",
+            "Expiry Date": "30-04-2026",
+            "Financial Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Type": "PERIODIC",
+            "Sub Type": "MONTHLY",
+            "Prefix": "5A",
+            "Suffix": "",
+            "Start Number": "1000",
+            "Sample Barcode": "5A1000",
+            "Effective Date": "01-05-2026",
+            "Expiry Date": "31-05-2026",
+            "Financial Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Type": "PERIODIC",
+            "Sub Type": "MONTHLY",
+            "Prefix": "6A",
+            "Suffix": "",
+            "Start Number": "2348",
+            "Sample Barcode": "6A2348",
+            "Effective Date": "01-06-2026",
+            "Expiry Date": "30-06-2026",
+            "Financial Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Type": "PERIODIC",
+            "Sub Type": "MONTHLY",
+            "Prefix": "7A",
+            "Suffix": "",
+            "Start Number": "1000",
+            "Sample Barcode": "7A1000",
+            "Effective Date": "01-07-2026",
+            "Expiry Date": "31-07-2026",
+            "Financial Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Type": "PERIODIC",
+            "Sub Type": "MONTHLY",
+            "Prefix": "8A",
+            "Suffix": "",
+            "Start Number": "1000",
+            "Sample Barcode": "8A1000",
+            "Effective Date": "01-08-2026",
+            "Expiry Date": "31-08-2026",
+            "Financial Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Type": "PERIODIC",
+            "Sub Type": "MONTHLY",
+            "Prefix": "9A",
+            "Suffix": "",
+            "Start Number": "1000",
+            "Sample Barcode": "9A1000",
+            "Effective Date": "01-09-2026",
+            "Expiry Date": "30-09-2026",
+            "Financial Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Type": "PERIODIC",
+            "Sub Type": "MONTHLY",
+            "Prefix": "10A",
+            "Suffix": "",
+            "Start Number": "1000",
+            "Sample Barcode": "10A1000",
+            "Effective Date": "01-10-2026",
+            "Expiry Date": "31-10-2026",
+            "Financial Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Type": "PERIODIC",
+            "Sub Type": "MONTHLY",
+            "Prefix": "11A",
+            "Suffix": "",
+            "Start Number": "1000",
+            "Sample Barcode": "11A1000",
+            "Effective Date": "01-11-2026",
+            "Expiry Date": "30-11-2026",
+            "Financial Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Type": "PERIODIC",
+            "Sub Type": "MONTHLY",
+            "Prefix": "12A",
+            "Suffix": "",
+            "Start Number": "1000",
+            "Sample Barcode": "12A1000",
+            "Effective Date": "01-12-2026",
+            "Expiry Date": "31-12-2026",
+            "Financial Year": "2026-2027",
+            "Action": ""
+          },
+          {
+            "Type": "PERIODIC",
+            "Sub Type": "MONTHLY",
+            "Prefix": "1B",
+            "Suffix": "",
+            "Start Number": "1000",
+            "Sample Barcode": "1B1000",
+            "Effective Date": "01-01-2027",
+            "Expiry Date": "31-01-2027",
+            "Financial Year": "2026-2027",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Barcode_Settings.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Split Barcode Settings": {
+      "tables": [
+        [
+          {
+            "Use For": "current setting",
+            "Prefix": "[OLD]S",
+            "Suffix": "",
+            "Start Number": "1",
+            "Sample Barcode": "[OLD]S01",
+            "Effective Date": "01-04-2026",
+            "Expiry Date": "31-03-2032",
+            "Financial Year": "2026-2027",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Split_Barcode_Settings.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Barcode Label Settings": {
+      "tables": [
+        [
+          {
+            "Choice": "",
+            "Default": "",
+            "Label Name": "TF 50 x 40",
+            "Description": "Sheet Size: 100mm x 40mm, Label Size: 50mm x 40\", Labels per sheet: 2",
+            "Page Size\n(width x height)": "100 x 40 mm",
+            "Label Size\n(width x height)": "50 x 40 mm",
+            "Sticker In Row": "2",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Label Name": "LL - 50.00mm x 25.00mm - 2Ups",
+            "Description": "Sheet Size: 100mm x 25mm, Label Size: 50mm x 25\", Labels per sheet: 2",
+            "Page Size\n(width x height)": "100 x 25 mm",
+            "Label Size\n(width x height)": "50 x 25 mm",
+            "Sticker In Row": "2",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Label Name": "KS 50.00mm x 25.00mm - 2Ups",
+            "Description": "Sheet Size: 100mm x 25mm, Label Size: 50mm x 25\", Labels per sheet: 2",
+            "Page Size\n(width x height)": "100 x 25 mm",
+            "Label Size\n(width x height)": "50 x 25 mm",
+            "Sticker In Row": "2",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Label Name": "MA 38 x 25 mm 1Ups",
+            "Description": "Sheet Size: 38mm x 25mm, Label Size: 38mm x 25\", Labels per sheet: 1",
+            "Page Size\n(width x height)": "38 x 25 mm",
+            "Label Size\n(width x height)": "38 x 25 mm",
+            "Sticker In Row": "1",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Label Name": "BS1 58*78mm 1Ups",
+            "Description": "Sheet Size: 58mm x 78mm, Label Size: 58mm x 78\", Labels per sheet: 2",
+            "Page Size\n(width x height)": "58 x 78 mm",
+            "Label Size\n(width x height)": "58 x 78 mm",
+            "Sticker In Row": "1",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Label Name": "BS2 58*78mm 1Ups",
+            "Description": "Sheet Size: 58mm x 77mm, Label Size: 58mm x 78\", Labels per sheet: 2",
+            "Page Size\n(width x height)": "58 x 78 mm",
+            "Label Size\n(width x height)": "58 x 78 mm",
+            "Sticker In Row": "1",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Label Name": "RT 72 x 116 mm",
+            "Description": "Sheet Size: 72mm x 116mm, Label Size: 0mm x 0\", Labels per sheet: 2",
+            "Page Size\n(width x height)": "72 x 116 mm",
+            "Label Size\n(width x height)": "0 x 0 mm",
+            "Sticker In Row": "2",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Label Name": "MF 100 x 50 mm",
+            "Description": "Sheet Size: 100mm x 50mm, Label Size: 50mm x 50\", Labels per sheet: 2",
+            "Page Size\n(width x height)": "100 x 50 mm",
+            "Label Size\n(width x height)": "50 x 50 mm",
+            "Sticker In Row": "2",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Label Name": "MNY 58 X 38",
+            "Description": "Sheet Size: 58mm x 38mm, Label Size: 58mm x 38\", Labels per sheet: 1",
+            "Page Size\n(width x height)": "58 x 38 mm",
+            "Label Size\n(width x height)": "58 x 38 mm",
+            "Sticker In Row": "1",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Label Name": "BGS 100 X 50 mm",
+            "Description": "Sheet Size: 100mm x 25mm, Label Size: 50mm x 25\", Labels per sheet: 2",
+            "Page Size\n(width x height)": "100 x 25 mm",
+            "Label Size\n(width x height)": "50 x 25 mm",
+            "Sticker In Row": "2",
+            "Preview": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Barcode_Label_Settings.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Procurement Type Master": {
+      "tables": [
+        [
+          {
+            "Procurement Type": "No Data..",
+            "Status": "",
+            "Business": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Procurement_Type_Master.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Payment Method Master": {
+      "tables": [
+        [
+          {
+            "Method Name": "No Data..",
+            "Is Active": "",
+            "Is Default": "",
+            "Is Cash": "",
+            "Is Loyalty": "",
+            "Ledger Name": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Payment_Method_Master.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Tax Master": {
+      "tables": [
+        [
+          {
+            "Tax Name": "GST 3%",
+            "IGST": "3",
+            "CGST": "1.5",
+            "SGST": "1.5",
+            "CESS": "0",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Tax Name": "GST 15%",
+            "IGST": "15",
+            "CGST": "7.5",
+            "SGST": "7.5",
+            "CESS": "0",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Tax Name": "IGST 5%",
+            "IGST": "5",
+            "CGST": "0",
+            "SGST": "0",
+            "CESS": "0",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Tax Name": "GST 5 %",
+            "IGST": "5",
+            "CGST": "2.5",
+            "SGST": "2.5",
+            "CESS": "0",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Tax Name": "GST 12%",
+            "IGST": "12",
+            "CGST": "6",
+            "SGST": "6",
+            "CESS": "0",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Tax Name": "GST 18%",
+            "IGST": "18",
+            "CGST": "9",
+            "SGST": "9",
+            "CESS": "0",
+            "Status": "Active",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Tax_Master.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "HSN Master": {
+      "tables": [
+        [
+          {
+            "Code": "6402",
+            "Effective Date": "06-03-2025",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Code": "6110",
+            "Effective Date": "07-02-2023",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Code": "62105910",
+            "Effective Date": "12-01-2023",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Code": "5208230",
+            "Effective Date": "12-01-2023",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Code": "33041000",
+            "Effective Date": "12-01-2023",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Code": "621139",
+            "Effective Date": "01-01-2023",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Code": "62113900",
+            "Effective Date": "01-01-2023",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Code": "620339",
+            "Effective Date": "01-01-2023",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Code": "6211",
+            "Effective Date": "01-01-2023",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Code": "6505",
+            "Effective Date": "01-01-2023",
+            "Status": "Active",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_HSN_Master.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Purchase Charge Master": {
+      "tables": [
+        [
+          {
+            "Name": "Freight charges",
+            "Type": "Amount",
+            "Status": "Active",
+            "GST Position": "Before Gst",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Purchase_Charge_Master.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Purchase Term Master": {
+      "tables": [
+        [
+          {
+            "Name": "After Tax",
+            "Action": "view"
+          },
+          {
+            "Name": "Before Tax",
+            "Action": "view"
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Purchase_Term_Master.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Purchase Setting": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Purchase_Setting.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Sales Charge Master": {
+      "tables": [
+        [
+          {
+            "Name": "No Data..",
+            "Type": "",
+            "Status": "",
+            "Business": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Sales_Charge_Master.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Sales Term Master": {
+      "tables": [
+        [
+          {
+            "Name": "No Data..",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Sales_Term_Master.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Loyalty Point": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Loyalty_Point.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Login Security": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Login_Security.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Pos Settings": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Pos_Settings.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Ecom Settings": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Ecom_Settings.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Invoice Layout Setting": {
+      "tables": [
+        [
+          {
+            "Choice": "",
+            "Default": "",
+            "Layout Name": "Thermal printer 4 inch",
+            "Description": "",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Layout Name": "Pos A4",
+            "Description": "",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Layout Name": "Pos A4 Template 2",
+            "Description": "",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Layout Name": "Slim 4",
+            "Description": "",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Layout Name": "BS Thermal Print V2",
+            "Description": "",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Layout Name": "Pos A4 Sim",
+            "Description": "",
+            "Preview": ""
+          },
+          {
+            "Choice": "",
+            "Default": "",
+            "Layout Name": "Thermal printer 3 inch BGS V1",
+            "Description": "",
+            "Preview": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Invoice_Layout_Setting.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "General Setting (Location)": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_General_Setting_Location_.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Business Contact": {
+      "tables": [
+        [
+          {
+            "Business": "TEMPLE FABRICS, SILKS & SAREES",
+            "Contact": "Temple Fabrics - HSR (IC1)\nMobile: 9916311500"
+          },
+          {
+            "Business": "SUVARNA FABRICS",
+            "Contact": "Suvarna Fabrics DVG (IC3)\nMobile: 9845062307"
+          },
+          {
+            "Business": "OMSHREE FABS (TEMPLE FABRICS , SILKS AND SAREES)",
+            "Contact": "OMSHREE FABS (IC2)\nMobile: 9986511500"
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Settings_Business_Contact.png",
+      "error": null,
+      "modal_count": 0
+    }
+  },
+  "Inventory": {
+    "Filter": {
+      "tables": [
+        [
+          {
+            "Name": "No Data..",
+            "Description": "",
+            "Parent": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Inventory_Filter.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Group": {
+      "tables": [
+        [
+          {
+            "Name": "SAREE FALLS",
+            "Business": "Temple Fabrics",
+            "Prefix": "",
+            "Parent": "",
+            "Action": ""
+          },
+          {
+            "Name": "SF-O",
+            "Business": "Temple Fabrics",
+            "Prefix": "",
+            "Parent": "SAREE FALLS",
+            "Action": ""
+          },
+          {
+            "Name": "SAREE FALLS",
+            "Business": "Temple Fabrics",
+            "Prefix": "",
+            "Parent": "SAREE FALLS",
+            "Action": ""
+          },
+          {
+            "Name": "SINGLE READY BIT",
+            "Business": "Temple Fabrics",
+            "Prefix": "",
+            "Parent": "",
+            "Action": ""
+          },
+          {
+            "Name": "CRB",
+            "Business": "Temple Fabrics",
+            "Prefix": "",
+            "Parent": "SINGLE READY BIT",
+            "Action": ""
+          },
+          {
+            "Name": "SINGLE READY BIT",
+            "Business": "Temple Fabrics",
+            "Prefix": "",
+            "Parent": "SINGLE READY BIT",
+            "Action": ""
+          },
+          {
+            "Name": "SRB",
+            "Business": "Temple Fabrics",
+            "Prefix": "",
+            "Parent": "SINGLE READY BIT",
+            "Action": ""
+          },
+          {
+            "Name": "LAST BITS",
+            "Business": "Temple Fabrics",
+            "Prefix": "",
+            "Parent": "",
+            "Action": ""
+          },
+          {
+            "Name": "LB-O",
+            "Business": "Temple Fabrics",
+            "Prefix": "",
+            "Parent": "LAST BITS",
+            "Action": ""
+          },
+          {
+            "Name": "MASK",
+            "Business": "Temple Fabrics",
+            "Prefix": "",
+            "Parent": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Inventory_Group.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Unit of Measurement": {
+      "tables": [
+        [
+          {
+            "Name": "Pieces",
+            "Short Name": "Pc(s)",
+            "Allow Decimal": "No",
+            "Default Value": "1",
+            "Business": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Name": "Meters",
+            "Short Name": "Mtr",
+            "Allow Decimal": "Yes",
+            "Default Value": "1",
+            "Business": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Name": "6 pcs Box",
+            "Short Name": "1x6 pc box",
+            "Allow Decimal": "No",
+            "Default Value": "",
+            "Business": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Name": "box",
+            "Short Name": "1pc x 1 Box",
+            "Allow Decimal": "No",
+            "Default Value": "",
+            "Business": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Name": "Dozen",
+            "Short Name": "Dozen",
+            "Allow Decimal": "No",
+            "Default Value": "12",
+            "Business": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Name": "Numbers",
+            "Short Name": "Nos",
+            "Allow Decimal": "No",
+            "Default Value": "1",
+            "Business": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Name": "Nos",
+            "Short Name": "Nos",
+            "Allow Decimal": "No",
+            "Default Value": "1",
+            "Business": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Name": "Mts",
+            "Short Name": "Mts",
+            "Allow Decimal": "Yes",
+            "Default Value": "1",
+            "Business": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Name": "PCS",
+            "Short Name": "PCS",
+            "Allow Decimal": "Yes",
+            "Default Value": "PIECES",
+            "Business": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Name": "Mtr",
+            "Short Name": "Mtr",
+            "Allow Decimal": "Yes",
+            "Default Value": "0.00",
+            "Business": "Temple Fabrics",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Inventory_Unit_of_Measurement.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Attribute Addons": {
+      "tables": [
+        [
+          {
+            "Name": "P-M-F",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Name": "(SM) NUMBER",
+            "Status": "Active",
+            "Action": ""
+          },
+          {
+            "Name": "supplier description",
+            "Status": "Active",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Inventory_Attribute_Addons.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Category": {
+      "tables": [
+        [
+          {
+            "Name": "No Data..",
+            "Short Name": "",
+            "Short Code": "",
+            "Status": "",
+            "Parent": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Inventory_Category.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Item": {
+      "tables": [
+        [
+          {
+            "Name": "10-CTNSLK-SL",
+            "Item Type": "Simple",
+            "HSN Code": "540752",
+            "UOM": "Meters",
+            "Prefix": "",
+            "Item Code": "",
+            "Group": "PLAIN FABRICS",
+            "Sub Group": "PLAIN FABRICS SG",
+            "Action": ""
+          },
+          {
+            "Name": "10-PFWBR",
+            "Item Type": "Simple",
+            "HSN Code": "540752",
+            "UOM": "Meters",
+            "Prefix": "",
+            "Item Code": "",
+            "Group": "PLAIN FABRICS",
+            "Sub Group": "PLAIN FABRICS SG",
+            "Action": ""
+          },
+          {
+            "Name": "15-SVNS",
+            "Item Type": "Simple",
+            "HSN Code": "540752",
+            "UOM": "Pieces",
+            "Prefix": "",
+            "Item Code": "",
+            "Group": "SAREES",
+            "Sub Group": "15-MIX SAREES",
+            "Action": ""
+          },
+          {
+            "Name": "15-S-DPN",
+            "Item Type": "Simple",
+            "HSN Code": "500720",
+            "UOM": "Pieces",
+            "Prefix": "",
+            "Item Code": "",
+            "Group": "SAREES",
+            "Sub Group": "SAREES",
+            "Action": ""
+          },
+          {
+            "Name": "10-PF-FRSLK",
+            "Item Type": "Simple",
+            "HSN Code": "540742",
+            "UOM": "Meters",
+            "Prefix": "",
+            "Item Code": "",
+            "Group": "PLAIN FABRICS",
+            "Sub Group": "PLAIN FABRICS SG",
+            "Action": ""
+          },
+          {
+            "Name": "10-PF-GGT",
+            "Item Type": "Simple",
+            "HSN Code": "540710",
+            "UOM": "Meters",
+            "Prefix": "",
+            "Item Code": "",
+            "Group": "PLAIN FABRICS",
+            "Sub Group": "PLAIN FABRICS SG",
+            "Action": ""
+          },
+          {
+            "Name": "10-PF-ORG",
+            "Item Type": "Simple",
+            "HSN Code": "540710",
+            "UOM": "Meters",
+            "Prefix": "",
+            "Item Code": "",
+            "Group": "PLAIN FABRICS",
+            "Sub Group": "PLAIN FABRICS SG",
+            "Action": ""
+          },
+          {
+            "Name": "10-PF-STN",
+            "Item Type": "Simple",
+            "HSN Code": "540772",
+            "UOM": "Meters",
+            "Prefix": "",
+            "Item Code": "",
+            "Group": "PLAIN FABRICS",
+            "Sub Group": "PLAIN FABRICS SG",
+            "Action": ""
+          },
+          {
+            "Name": "10-PF-TSUE",
+            "Item Type": "Simple",
+            "HSN Code": "520811",
+            "UOM": "Meters",
+            "Prefix": "",
+            "Item Code": "",
+            "Group": "PLAIN FABRICS",
+            "Sub Group": "PLAIN FABRICS SG",
+            "Action": ""
+          },
+          {
+            "Name": "10-PF-WBR",
+            "Item Type": "Simple",
+            "HSN Code": "540842",
+            "UOM": "Meters",
+            "Prefix": "",
+            "Item Code": "",
+            "Group": "PLAIN FABRICS",
+            "Sub Group": "PLAIN FABRICS SG",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Inventory_Item.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Print Label": {
+      "tables": [
+        [
+          {
+            "Item Name": "No Item Found",
+            "Item Code": "",
+            "Quantity": "",
+            "RSP Price": "",
+            "WSP Price": "",
+            "Barcode Copies": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Inventory_Print_Label.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Barcode Item": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Inventory_Barcode_Item.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Stock Adjustment": {
+      "tables": [
+        [
+          {
+            "Adjustment No": "26/0008",
+            "Type": "Addition",
+            "Creadted On": "29-07-2026",
+            "Reason": "Other",
+            "Created By": "Abhishek JNR",
+            "Action": ""
+          },
+          {
+            "Adjustment No": "26/0007",
+            "Type": "Subtraction",
+            "Creadted On": "29-07-2026",
+            "Reason": "Lost",
+            "Created By": "Abhishek JNR",
+            "Action": ""
+          },
+          {
+            "Adjustment No": "26/0006",
+            "Type": "Addition",
+            "Creadted On": "19-07-2026",
+            "Reason": "Other",
+            "Created By": "Abhishek JNR",
+            "Action": ""
+          },
+          {
+            "Adjustment No": "26/0005",
+            "Type": "Subtraction",
+            "Creadted On": "06-07-2026",
+            "Reason": "Other",
+            "Created By": "Abhishek JNR",
+            "Action": ""
+          },
+          {
+            "Adjustment No": "26/0004",
+            "Type": "Subtraction",
+            "Creadted On": "05-07-2026",
+            "Reason": "Other",
+            "Created By": "Abhishek JNR",
+            "Action": ""
+          },
+          {
+            "Adjustment No": "26/0003",
+            "Type": "Subtraction",
+            "Creadted On": "29-06-2026",
+            "Reason": "Damage",
+            "Created By": "Abhishek JNR",
+            "Action": ""
+          },
+          {
+            "Adjustment No": "26/0002",
+            "Type": "Subtraction",
+            "Creadted On": "29-06-2026",
+            "Reason": "Other",
+            "Created By": "Abhishek JNR",
+            "Action": ""
+          },
+          {
+            "Adjustment No": "26/0001",
+            "Type": "Subtraction",
+            "Creadted On": "29-06-2026",
+            "Reason": "Other",
+            "Created By": "Abhishek JNR",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [
+        {
+          "Adjustment Code": ": 26/0008",
+          "Adjustment Type": ": Addition",
+          "Adjustment Date": ": 29-07-2026",
+          "Adjustment Reason": ": Other",
+          "Finyear": ": 2026-2027",
+          "Created By": ": Abhishek JNR"
+        },
+        {
+          "Adjustment Code": ": 26/0007",
+          "Adjustment Type": ": Subtraction",
+          "Adjustment Date": ": 29-07-2026",
+          "Adjustment Reason": ": Lost",
+          "Finyear": ": 2026-2027",
+          "Created By": ": Abhishek JNR"
+        },
+        {
+          "Adjustment Code": ": 26/0006",
+          "Adjustment Type": ": Addition",
+          "Adjustment Date": ": 19-07-2026",
+          "Adjustment Reason": ": Other",
+          "Finyear": ": 2026-2027",
+          "Created By": ": Abhishek JNR"
+        },
+        {
+          "Adjustment Code": ": 26/0005",
+          "Adjustment Type": ": Subtraction",
+          "Adjustment Date": ": 06-07-2026",
+          "Adjustment Reason": ": Other",
+          "Finyear": ": 2026-2027",
+          "Created By": ": Abhishek JNR"
+        },
+        {
+          "Adjustment Code": ": 26/0004",
+          "Adjustment Type": ": Subtraction",
+          "Adjustment Date": ": 05-07-2026",
+          "Adjustment Reason": ": Other",
+          "Finyear": ": 2026-2027",
+          "Created By": ": Abhishek JNR"
+        },
+        {
+          "Adjustment Code": ": 26/0003",
+          "Adjustment Type": ": Subtraction",
+          "Adjustment Date": ": 29-06-2026",
+          "Adjustment Reason": ": Damage",
+          "Finyear": ": 2026-2027",
+          "Created By": ": Abhishek JNR"
+        },
+        {
+          "Adjustment Code": ": 26/0002",
+          "Adjustment Type": ": Subtraction",
+          "Adjustment Date": ": 29-06-2026",
+          "Adjustment Reason": ": Other",
+          "Finyear": ": 2026-2027",
+          "Created By": ": Abhishek JNR"
+        },
+        {
+          "Adjustment Code": ": 26/0001",
+          "Adjustment Type": ": Subtraction",
+          "Adjustment Date": ": 29-06-2026",
+          "Adjustment Reason": ": Other",
+          "Finyear": ": 2026-2027",
+          "Created By": ": Abhishek JNR"
+        }
+      ],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Inventory_Stock_Adjustment.png",
+      "error": null,
+      "modal_count": 8
+    },
+    "Bulk Price Update": {
+      "tables": [
+        [
+          {
+            "#": "%",
+            "Item": "Price",
+            "Barcode": "Offer %",
+            "Purchase": "Offer Price",
+            "Discount": "%",
+            "Rate": "Price",
+            "RSP": "Offer %",
+            "WSP": "Offer Price",
+            "DP": "%"
+          },
+          {
+            "#": "1",
+            "Item": "FNY WEAVING\nCotton Saree",
+            "Barcode": "SD18734",
+            "Purchase": "1750",
+            "Discount": "",
+            "Rate": "",
+            "RSP": "",
+            "WSP": "",
+            "DP": ""
+          },
+          {
+            "#": "2",
+            "Item": "FNY WEAVING\nCotton Saree",
+            "Barcode": "SD18734",
+            "Purchase": "1750",
+            "Discount": "",
+            "Rate": "",
+            "RSP": "",
+            "WSP": "",
+            "DP": ""
+          },
+          {
+            "#": "3",
+            "Item": "FNY WEAVING\nCotton Saree",
+            "Barcode": "SD18734",
+            "Purchase": "1750",
+            "Discount": "",
+            "Rate": "",
+            "RSP": "",
+            "WSP": "",
+            "DP": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Inventory_Bulk_Price_Update.png",
+      "error": null,
+      "modal_count": 0
+    }
+  },
+  "Contacts": {
+    "Contact Types": {
+      "tables": [
+        [
+          {
+            "Type Name": "B2B INTERSTORES",
+            "Contact Type": "Customer",
+            "Prefix": "IC",
+            "Status": "Active",
+            "Business Name": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Type Name": "Wholesale",
+            "Contact Type": "Supplier",
+            "Prefix": "W",
+            "Status": "Active",
+            "Business Name": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Type Name": "Retail",
+            "Contact Type": "Supplier",
+            "Prefix": "R",
+            "Status": "Active",
+            "Business Name": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Type Name": "AGENTS",
+            "Contact Type": "Agent",
+            "Prefix": "AGENT",
+            "Status": "Active",
+            "Business Name": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Type Name": "RETAIL",
+            "Contact Type": "Customer",
+            "Prefix": "JNR",
+            "Status": "Active",
+            "Business Name": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Type Name": "POS Customer",
+            "Contact Type": "Customer",
+            "Prefix": "PO",
+            "Status": "Active",
+            "Business Name": "Temple Fabrics",
+            "Action": ""
+          },
+          {
+            "Type Name": "Vendor for Goods",
+            "Contact Type": "Supplier",
+            "Prefix": "G",
+            "Status": "Active",
+            "Business Name": "Temple Fabrics",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Contacts_Contact_Types.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Suppliers": {
+      "tables": [
+        [
+          {
+            "Action": "Action",
+            "Business Name": "AHUJA TEXTILES",
+            "Contact ID": "G1306",
+            "Name": "",
+            "Mobile": "9999031345",
+            "Email": "design.aarekhi@gmail.com",
+            "Address": "557, KATRA NEEL"
+          },
+          {
+            "Action": "Action",
+            "Business Name": "PARAS SILK EMPORIUM",
+            "Contact ID": "G1305",
+            "Name": "",
+            "Mobile": "9448686700",
+            "Email": "",
+            "Address": "34, 3RD FLOOR, JM ROAD,"
+          },
+          {
+            "Action": "Action",
+            "Business Name": "ZARA Collection, VARANASI",
+            "Contact ID": "G1304",
+            "Name": "",
+            "Mobile": "9565282182",
+            "Email": "",
+            "Address": "D35/68-69 1st Floor Aminia Market"
+          },
+          {
+            "Action": "Action",
+            "Business Name": "M B SAREES PVT LTD",
+            "Contact ID": "G1303",
+            "Name": "M B SAREES PVT LTD",
+            "Mobile": "9026734929",
+            "Email": "mbsarees@gmail.com",
+            "Address": "b3335-151-a-ravindrapuri"
+          },
+          {
+            "Action": "Action",
+            "Business Name": "Shree YAMUNESH Creation, MUMBAI",
+            "Contact ID": "G1292",
+            "Name": "",
+            "Mobile": "9999999",
+            "Email": "ajitsyc@gmail.com",
+            "Address": "1/2/8 GROUND FLOOR, PLOT NO. 69/87"
+          },
+          {
+            "Action": "Action",
+            "Business Name": "SILK INDIA HOUSE, MUMBAI",
+            "Contact ID": "G1293",
+            "Name": "",
+            "Mobile": "8080086492",
+            "Email": "silkindiahouse195@gmail.com",
+            "Address": "103/105 SHREENATH BHUVAN"
+          },
+          {
+            "Action": "Action",
+            "Business Name": "CHANDRU Sarees, MUMBAI",
+            "Contact ID": "G1294",
+            "Name": "",
+            "Mobile": "9320112749",
+            "Email": "NCLSAREES@HOTMAIL.COM",
+            "Address": "1ST FLOOR, 1-3-5-7, SHREEJI ARCADE,"
+          },
+          {
+            "Action": "Action",
+            "Business Name": "VRAJGOPI Creation, SURAT",
+            "Contact ID": "G1295",
+            "Name": "",
+            "Mobile": "7874210091",
+            "Email": "",
+            "Address": "SALES: P-13-15-17-19-21-23 Bombay Market Umarwada"
+          },
+          {
+            "Action": "Action",
+            "Business Name": "SEEGOTAR Textiles, SURAT",
+            "Contact ID": "G1296",
+            "Name": "",
+            "Mobile": "9374020076",
+            "Email": "",
+            "Address": "16011 Wing-108 1st Floor"
+          },
+          {
+            "Action": "Action",
+            "Business Name": "ARHAM Arts, SURAT",
+            "Contact ID": "G1297",
+            "Name": "",
+            "Mobile": "9825268886",
+            "Email": "arhamarts@gmail.com",
+            "Address": "10 Veer Prabu Industrial Estate"
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Contacts_Suppliers.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Agents": {
+      "tables": [
+        [
+          {
+            "Name": "RATHAN BANDHU SURAT",
+            "Contact ID": "AGENT7",
+            "Mobile": "2233445566",
+            "Email": "",
+            "Address": "",
+            "Action": ""
+          },
+          {
+            "Name": "SARV SUBH",
+            "Contact ID": "AGENT6",
+            "Mobile": "1122334455",
+            "Email": "",
+            "Address": "",
+            "Action": ""
+          },
+          {
+            "Name": "CRN CNA CRNCNA",
+            "Contact ID": "AGENT5",
+            "Mobile": "2222222222",
+            "Email": "",
+            "Address": "",
+            "Action": ""
+          },
+          {
+            "Name": "DIRECT DIRECT",
+            "Contact ID": "AGENT4",
+            "Mobile": "1111111110",
+            "Email": "",
+            "Address": "",
+            "Action": ""
+          },
+          {
+            "Name": "JPR - RAGHANI JPR - RAGHANI",
+            "Contact ID": "AGENT3",
+            "Mobile": "9649344555",
+            "Email": "",
+            "Address": "",
+            "Action": ""
+          },
+          {
+            "Name": "VNS - RAGHANI VNS - RAGHANI",
+            "Contact ID": "AGENT2",
+            "Mobile": "9838500775",
+            "Email": "",
+            "Address": "",
+            "Action": ""
+          },
+          {
+            "Name": "PRADEEP !",
+            "Contact ID": "AGENT1",
+            "Mobile": "9731319114",
+            "Email": "",
+            "Address": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Contacts_Agents.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Customers": {
+      "tables": [
+        [
+          {
+            "Action": "GEETHA",
+            "Business Name": "PO235",
+            "Contact ID": "GEETHA",
+            "Name": "7760653388",
+            "Mobile": "",
+            "Email": "",
+            "Address": ""
+          },
+          {
+            "Action": "RAJESHWARI",
+            "Business Name": "PO234",
+            "Contact ID": "RAJESHWARI",
+            "Name": "9916140860",
+            "Mobile": "",
+            "Email": "",
+            "Address": ""
+          },
+          {
+            "Action": "anitha",
+            "Business Name": "PO233",
+            "Contact ID": "anitha",
+            "Name": "9845696270",
+            "Mobile": "",
+            "Email": "",
+            "Address": ""
+          },
+          {
+            "Action": "NAGASHREE",
+            "Business Name": "PO232",
+            "Contact ID": "NAGASHREE",
+            "Name": "9916881279",
+            "Mobile": "",
+            "Email": "",
+            "Address": ""
+          },
+          {
+            "Action": "NANDINI",
+            "Business Name": "PO231",
+            "Contact ID": "NANDINI",
+            "Name": "9902343636",
+            "Mobile": "",
+            "Email": "",
+            "Address": ""
+          },
+          {
+            "Action": "VINEELA TUBATI",
+            "Business Name": "PO230",
+            "Contact ID": "VINEELA TUBATI",
+            "Name": "8688476462",
+            "Mobile": "",
+            "Email": "",
+            "Address": ""
+          },
+          {
+            "Action": "SAROJA",
+            "Business Name": "PO229",
+            "Contact ID": "SAROJA",
+            "Name": "8939884219",
+            "Mobile": "",
+            "Email": "",
+            "Address": ""
+          },
+          {
+            "Action": "RUBINA",
+            "Business Name": "PO228",
+            "Contact ID": "RUBINA",
+            "Name": "9989860798",
+            "Mobile": "",
+            "Email": "",
+            "Address": ""
+          },
+          {
+            "Action": "HARI PRIYA",
+            "Business Name": "PO227",
+            "Contact ID": "HARI PRIYA",
+            "Name": "9652374232",
+            "Mobile": "",
+            "Email": "",
+            "Address": ""
+          },
+          {
+            "Action": "MAMATHA",
+            "Business Name": "PO226",
+            "Contact ID": "MAMATHA",
+            "Name": "7259981657",
+            "Mobile": "",
+            "Email": "",
+            "Address": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Contacts_Customers.png",
+      "error": null,
+      "modal_count": 0
+    }
+  },
+  "Purchase": {
+    "Goods Receipt Challan": {
+      "tables": [
+        [
+          {
+            "Action": "Action",
+            "Vendor Name": "MILLENNIUM Textiles, SURAT [G513]",
+            "GRC NO": "05052",
+            "GRC Date": "29-07-2026",
+            "Logistic No": "",
+            "Purchase Group": "CNA",
+            "Occasion": "",
+            "Agent": "RATHAN BANDHU SURAT",
+            "Vendor Doc No": "340",
+            "Procurement Type": "",
+            "Purchase Term": "After Tax",
+            "Taxable": "41676.00",
+            "Total Quantity": "868.25",
+            "GST": "2083.80",
+            "Net Amount": "43760.00"
+          },
+          {
+            "Action": "Action",
+            "Vendor Name": "M K SILK Creations LLP, BANGALORE [G1260]",
+            "GRC NO": "05051",
+            "GRC Date": "29-07-2026",
+            "Logistic No": "",
+            "Purchase Group": "CNA",
+            "Occasion": "",
+            "Agent": "DIRECT DIRECT",
+            "Vendor Doc No": "MSL/26-27/02382",
+            "Procurement Type": "",
+            "Purchase Term": "After Tax",
+            "Taxable": "31543.75",
+            "Total Quantity": "25.75",
+            "GST": "1577.20",
+            "Net Amount": "33121.00"
+          },
+          {
+            "Action": "Action",
+            "Vendor Name": "M J Bros, VARANASI [G610]",
+            "GRC NO": "05050",
+            "GRC Date": "28-07-2026",
+            "Logistic No": "",
+            "Purchase Group": "CRN,CNA",
+            "Occasion": "",
+            "Agent": "VNS - RAGHANI VNS - RAGHANI",
+            "Vendor Doc No": "MJ/26/27/95",
+            "Procurement Type": "",
+            "Purchase Term": "After Tax",
+            "Taxable": "270395.70",
+            "Total Quantity": "300.35",
+            "GST": "13519.82",
+            "Net Amount": "283916.00"
+          },
+          {
+            "Action": "Action",
+            "Vendor Name": "M J Fabrics, MUMBAI [G711]",
+            "GRC NO": "05049",
+            "GRC Date": "28-07-2026",
+            "Logistic No": "",
+            "Purchase Group": "CRN",
+            "Occasion": "",
+            "Agent": "DIRECT DIRECT",
+            "Vendor Doc No": "14937/26-27",
+            "Procurement Type": "",
+            "Purchase Term": "After Tax",
+            "Taxable": "16450.00",
+            "Total Quantity": "20.00",
+            "GST": "822.50",
+            "Net Amount": "17273.00"
+          },
+          {
+            "Action": "Action",
+            "Vendor Name": "DIVYAM Ckreation, SURAT [G1156]",
+            "GRC NO": "05048",
+            "GRC Date": "28-07-2026",
+            "Logistic No": "",
+            "Purchase Group": "CNA",
+            "Occasion": "",
+            "Agent": "DIRECT DIRECT",
+            "Vendor Doc No": "1/198",
+            "Procurement Type": "",
+            "Purchase Term": "After Tax",
+            "Taxable": "5047.75",
+            "Total Quantity": "15.25",
+            "GST": "252.39",
+            "Net Amount": "5300.00"
+          },
+          {
+            "Action": "Action",
+            "Vendor Name": "SHANKESHWAR Lifestyles, BANGALORE [G1204]",
+            "GRC NO": "05047",
+            "GRC Date": "28-07-2026",
+            "Logistic No": "",
+            "Purchase Group": "CRN",
+            "Occasion": "",
+            "Agent": "DIRECT DIRECT",
+            "Vendor Doc No": "2599/26-27",
+            "Procurement Type": "",
+            "Purchase Term": "After Tax",
+            "Taxable": "19012.50",
+            "Total Quantity": "192.50",
+            "GST": "950.63",
+            "Net Amount": "19963.00"
+          },
+          {
+            "Action": "Action",
+            "Vendor Name": "M J Bros, VARANASI [G610]",
+            "GRC NO": "05046",
+            "GRC Date": "27-07-2026",
+            "Logistic No": "",
+            "Purchase Group": "CRN,CNA",
+            "Occasion": "",
+            "Agent": "VNS - RAGHANI VNS - RAGHANI",
+            "Vendor Doc No": "MJ/26-27/128",
+            "Procurement Type": "",
+            "Purchase Term": "After Tax",
+            "Taxable": "40998.10",
+            "Total Quantity": "39.65",
+            "GST": "2049.91",
+            "Net Amount": "43048.00"
+          },
+          {
+            "Action": "Action",
+            "Vendor Name": "NOORUL HUDA Fabrics Pvt Ltd [G789]",
+            "GRC NO": "05045",
+            "GRC Date": "27-07-2026",
+            "Logistic No": "",
+            "Purchase Group": "CRN,CNA",
+            "Occasion": "",
+            "Agent": "VNS - RAGHANI VNS - RAGHANI",
+            "Vendor Doc No": "124",
+            "Procurement Type": "",
+            "Purchase Term": "After Tax",
+            "Taxable": "1011575.25",
+            "Total Quantity": "1638.70",
+            "GST": "50578.87",
+            "Net Amount": "1062154.00"
+          },
+          {
+            "Action": "Action",
+            "Vendor Name": "CHIRAG Tex Fab, SURAT [G1254]",
+            "GRC NO": "05044",
+            "GRC Date": "25-07-2026",
+            "Logistic No": "",
+            "Purchase Group": "GENERAL",
+            "Occasion": "",
+            "Agent": "",
+            "Vendor Doc No": "666/2026-27",
+            "Procurement Type": "",
+            "Purchase Term": "After Tax",
+            "Taxable": "16770.00",
+            "Total Quantity": "21.50",
+            "GST": "838.50",
+            "Net Amount": "17609.00"
+          },
+          {
+            "Action": "Action",
+            "Vendor Name": "UNIVERSAL Fabric Pvt Ltd, VARANASI [G597]",
+            "GRC NO": "05043",
+            "GRC Date": "25-07-2026",
+            "Logistic No": "",
+            "Purchase Group": "CRN,CNA",
+            "Occasion": "",
+            "Agent": "VNS - RAGHANI VNS - RAGHANI",
+            "Vendor Doc No": "UFPL/560/26-27",
+            "Procurement Type": "",
+            "Purchase Term": "After Tax",
+            "Taxable": "50777.50",
+            "Total Quantity": "142.00",
+            "GST": "2539.00",
+            "Net Amount": "53317.00"
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Purchase_Goods_Receipt_Challan.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Purchase Invoice": {
+      "tables": [
+        [
+          {
+            "Purchase Invoice": "26/00280",
+            "Purchase Date": "29-07-2026",
+            "Supplier Name": "MILLENNIUM Textiles, SURAT",
+            "GRC NO": "05052",
+            "Net Purchase Amt": "43760.00",
+            "Total Payable": "43760.00",
+            "Action": ""
+          },
+          {
+            "Purchase Invoice": "26/00279",
+            "Purchase Date": "29-07-2026",
+            "Supplier Name": "M K SILK Creations LLP, BANGALORE",
+            "GRC NO": "05051",
+            "Net Purchase Amt": "33121.00",
+            "Total Payable": "33121.00",
+            "Action": ""
+          },
+          {
+            "Purchase Invoice": "26/00278",
+            "Purchase Date": "29-07-2026",
+            "Supplier Name": "M J Bros, VARANASI",
+            "GRC NO": "05050",
+            "Net Purchase Amt": "283916.00",
+            "Total Payable": "283916.00",
+            "Action": ""
+          },
+          {
+            "Purchase Invoice": "26/00277",
+            "Purchase Date": "28-07-2026",
+            "Supplier Name": "M J Fabrics, MUMBAI",
+            "GRC NO": "05049",
+            "Net Purchase Amt": "17273.00",
+            "Total Payable": "17273.00",
+            "Action": ""
+          },
+          {
+            "Purchase Invoice": "26/00276",
+            "Purchase Date": "28-07-2026",
+            "Supplier Name": "DIVYAM Ckreation, SURAT",
+            "GRC NO": "05048",
+            "Net Purchase Amt": "5300.00",
+            "Total Payable": "5300.00",
+            "Action": ""
+          },
+          {
+            "Purchase Invoice": "26/00275",
+            "Purchase Date": "28-07-2026",
+            "Supplier Name": "SHANKESHWAR Lifestyles, BANGALORE",
+            "GRC NO": "05047",
+            "Net Purchase Amt": "19963.00",
+            "Total Payable": "19963.00",
+            "Action": ""
+          },
+          {
+            "Purchase Invoice": "26/00274",
+            "Purchase Date": "27-07-2026",
+            "Supplier Name": "M J Bros, VARANASI",
+            "GRC NO": "05046",
+            "Net Purchase Amt": "43048.00",
+            "Total Payable": "43048.00",
+            "Action": ""
+          },
+          {
+            "Purchase Invoice": "26/00273",
+            "Purchase Date": "27-07-2026",
+            "Supplier Name": "NOORUL HUDA Fabrics Pvt Ltd",
+            "GRC NO": "05045",
+            "Net Purchase Amt": "1062154.00",
+            "Total Payable": "1062154.00",
+            "Action": ""
+          },
+          {
+            "Purchase Invoice": "26/00272",
+            "Purchase Date": "25-07-2026",
+            "Supplier Name": "CHIRAG Tex Fab, SURAT",
+            "GRC NO": "05044",
+            "Net Purchase Amt": "17609.00",
+            "Total Payable": "17609.00",
+            "Action": ""
+          },
+          {
+            "Purchase Invoice": "26/00271",
+            "Purchase Date": "25-07-2026",
+            "Supplier Name": "UNIVERSAL Fabric Pvt Ltd, VARANASI",
+            "GRC NO": "05043",
+            "Net Purchase Amt": "53317.00",
+            "Total Payable": "53317.00",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [
+        {
+          "Vendor Name": ": MILLENNIUM Textiles, SURAT [G513]",
+          "Vendor GST No": ": 24AGKPP7483L1ZO",
+          "Purchase Invoice": ": 26/00280",
+          "Purchase Invoice Date": ": 29-07-2026",
+          "Invoice Copy": ":view",
+          "Waybill": ":N/A",
+          "GRC Date": ": 29-07-2026",
+          "GRC Number": ": 05052",
+          "Vendor Doc Date": ": 29-07-2026",
+          "Purchase Term": ": After Tax",
+          "Vendor Doc No": ": 340",
+          "Purchase Group": ": CNA",
+          "Procurement Type": ":",
+          "Occasion": ":",
+          "Agent": ": RATHAN SURAT",
+          "Logistic": ":"
+        },
+        {
+          "Vendor Name": ": M J Fabrics, MUMBAI [G711]",
+          "Vendor GST No": ": 27ABIFM3384Q1ZG",
+          "Purchase Invoice": ": 26/00277",
+          "Purchase Invoice Date": ": 28-07-2026",
+          "Invoice Copy": ":view",
+          "Waybill": ":N/A",
+          "GRC Date": ": 28-07-2026",
+          "GRC Number": ": 05049",
+          "Vendor Doc Date": ": 23-07-2026",
+          "Purchase Term": ": After Tax",
+          "Vendor Doc No": ": 14937/26-27",
+          "Purchase Group": ": CRN",
+          "Procurement Type": ":",
+          "Occasion": ":",
+          "Agent": ": DIRECT DIRECT",
+          "Logistic": ":"
+        },
+        {
+          "Vendor Name": ": DIVYAM Ckreation, SURAT [G1156]",
+          "Vendor GST No": ": 24BBFPJ5985G1ZG",
+          "Purchase Invoice": ": 26/00276",
+          "Purchase Invoice Date": ": 28-07-2026",
+          "Invoice Copy": ":view",
+          "Waybill": ":N/A",
+          "GRC Date": ": 28-07-2026",
+          "GRC Number": ": 05048",
+          "Vendor Doc Date": ": 16-07-2026",
+          "Purchase Term": ": After Tax",
+          "Vendor Doc No": ": 1/198",
+          "Purchase Group": ": CNA",
+          "Procurement Type": ":",
+          "Occasion": ":",
+          "Agent": ": DIRECT DIRECT",
+          "Logistic": ":"
+        },
+        {
+          "Vendor Name": ": SHANKESHWAR Lifestyles, BANGALORE [G1204]",
+          "Vendor GST No": ":",
+          "Purchase Invoice": ": 26/00275",
+          "Purchase Invoice Date": ": 28-07-2026",
+          "Invoice Copy": ":view",
+          "Waybill": ":N/A",
+          "GRC Date": ": 28-07-2026",
+          "GRC Number": ": 05047",
+          "Vendor Doc Date": ": 22-07-2026",
+          "Purchase Term": ": After Tax",
+          "Vendor Doc No": ": 2599/26-27",
+          "Purchase Group": ": CRN",
+          "Procurement Type": ":",
+          "Occasion": ":",
+          "Agent": ": DIRECT DIRECT",
+          "Logistic": ":"
+        },
+        {
+          "Vendor Name": ": M J Bros, VARANASI [G610]",
+          "Vendor GST No": ": 09ABGFM6971K1ZL",
+          "Purchase Invoice": ": 26/00274",
+          "Purchase Invoice Date": ": 27-07-2026",
+          "Invoice Copy": ":view",
+          "Waybill": ":N/A",
+          "GRC Date": ": 27-07-2026",
+          "GRC Number": ": 05046",
+          "Vendor Doc Date": ": 15-07-2026",
+          "Purchase Term": ": After Tax",
+          "Vendor Doc No": ": MJ/26-27/128",
+          "Purchase Group": ": CRN,CNA",
+          "Procurement Type": ":",
+          "Occasion": ":",
+          "Agent": ": VNS - RAGHANI VNS - RAGHANI",
+          "Logistic": ":"
+        },
+        {
+          "Vendor Name": ": NOORUL HUDA Fabrics Pvt Ltd [G789]",
+          "Vendor GST No": ": 09AAGCN7765E1Z3",
+          "Purchase Invoice": ": 26/00273",
+          "Purchase Invoice Date": ": 27-07-2026",
+          "Invoice Copy": ":view",
+          "Waybill": ":N/A",
+          "GRC Date": ": 27-07-2026",
+          "GRC Number": ": 05045",
+          "Vendor Doc Date": ": 02-07-2026",
+          "Purchase Term": ": After Tax",
+          "Vendor Doc No": ": 124",
+          "Purchase Group": ": CRN,CNA",
+          "Procurement Type": ":",
+          "Occasion": ":",
+          "Agent": ": VNS - RAGHANI VNS - RAGHANI",
+          "Logistic": ":"
+        },
+        {
+          "Vendor Name": ": CHIRAG Tex Fab, SURAT [G1254]",
+          "Vendor GST No": ": 24BFIPP9813C1ZG",
+          "Purchase Invoice": ": 26/00272",
+          "Purchase Invoice Date": ": 25-07-2026",
+          "Invoice Copy": ":view",
+          "Waybill": ":N/A",
+          "GRC Date": ": 25-07-2026",
+          "GRC Number": ": 05044",
+          "Vendor Doc Date": ": 25-07-2026",
+          "Purchase Term": ": After Tax",
+          "Vendor Doc No": ": 666/2026-27",
+          "Purchase Group": ": GENERAL",
+          "Procurement Type": ":",
+          "Occasion": ":",
+          "Agent": ":",
+          "Logistic": ":"
+        },
+        {
+          "Vendor Name": ": UNIVERSAL Fabric Pvt Ltd, VARANASI [G597]",
+          "Vendor GST No": ": 09AABCU6885B1Z4",
+          "Purchase Invoice": ": 26/00271",
+          "Purchase Invoice Date": ": 25-07-2026",
+          "Invoice Copy": ":view",
+          "Waybill": ":N/A",
+          "GRC Date": ": 25-07-2026",
+          "GRC Number": ": 05043",
+          "Vendor Doc Date": ": 14-07-2026",
+          "Purchase Term": ": After Tax",
+          "Vendor Doc No": ": UFPL/560/26-27",
+          "Purchase Group": ": CRN,CNA",
+          "Procurement Type": ":",
+          "Occasion": ":",
+          "Agent": ": VNS - RAGHANI VNS - RAGHANI",
+          "Logistic": ":"
+        }
+      ],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Purchase_Purchase_Invoice.png",
+      "error": null,
+      "modal_count": 10
+    },
+    "Goods Return Note": {
+      "tables": [
+        [
+          {
+            "GRT NO": "No Data..",
+            "GRT Date": "",
+            "Supplier Name": "",
+            "GRC NO": "",
+            "Qty": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Purchase_Goods_Return_Note.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Debit Note": {
+      "tables": [
+        [
+          {
+            "Debit Note No": "No Data..",
+            "Debit Creadted": "",
+            "Supplier": "",
+            "GRT NO": "",
+            "Qty": "",
+            "Value": "",
+            "Remaining": "",
+            "Adj. Status": "",
+            "Adjusted Against (PI)": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Purchase_Debit_Note.png",
+      "error": null,
+      "modal_count": 0
+    }
+  },
+  "Sell": {
+    "Delivery Challan": {
+      "tables": [
+        [
+          {
+            "Delivery Challan No": "No Data..",
+            "Customer Name": "",
+            "Customer Mobile": "",
+            "Customer GST No": "",
+            "Creadted On": "",
+            "Logistic No": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Sell_Delivery_Challan.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Sales Invoice": {
+      "tables": [
+        [
+          {
+            "Sales Invoice No": "No Data..",
+            "Customer Name": "",
+            "Customer Mobile": "",
+            "Customer GST No": "",
+            "Delivery Challan No": "",
+            "Creadted On": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Sell_Sales_Invoice.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Sales Return": {
+      "tables": [
+        [
+          {
+            "Customer Name": "No Data..",
+            "Sales Return No": "",
+            "Creadted On": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Sell_Sales_Return.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Credit Note": {
+      "tables": [
+        [
+          {
+            "Customer Name": "No Data..",
+            "Credit Note Code": "",
+            "Total Qty": "",
+            "Creadted On": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Sell_Credit_Note.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "POS": {
+      "tables": [
+        [
+          {
+            "Action": "No Data..",
+            "Date": "",
+            "Invoice No": "",
+            "Counter": "",
+            "Customer Name": "",
+            "Customer Contact": "",
+            "Exempted": "",
+            "Billing Type": "",
+            "Payment Status": "",
+            "Total Amount": "",
+            "Paid": "",
+            "Sell Due": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Sell_POS.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "POS Return": {
+      "tables": [
+        [
+          {
+            "Action": "No Data..",
+            "Date": "",
+            "Invoice No": "",
+            "Parent Invoice": "",
+            "Customer Name": "",
+            "Payment Status": "",
+            "Total Amount": "",
+            "Location": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Sell_POS_Return.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "B2B Invoice": {
+      "tables": [
+        [
+          {
+            "Location": "No Data..",
+            "Invoice No": "",
+            "Customer Name": "",
+            "Customer Contact": "",
+            "GST No": "",
+            "State": "",
+            "Total Taxable": "",
+            "Total IGST Amount": "",
+            "Total CGST Amount": "",
+            "Total SGST Amount": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Sell_B2B_Invoice.png",
+      "error": null,
+      "modal_count": 0
+    }
+  },
+  "Staff Management": {
+    "Roles & Permissions": {
+      "tables": [
+        [
+          {
+            "Business Name": "Temple Fabrics",
+            "Roll Name": "cashier",
+            "Description": "cashier",
+            "Action": ""
+          },
+          {
+            "Business Name": "Temple Fabrics",
+            "Roll Name": "Image",
+            "Description": "Image tagging",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Staff_Management_Roles_Permissions.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Staffs": {
+      "tables": [
+        [
+          {
+            "Username": "image",
+            "Name": "Image",
+            "Email": "image@tf.com",
+            "Role": "Image",
+            "Allow login": "Yes",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Staff_Management_Staffs.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Sales Persons": {
+      "tables": [
+        [
+          {
+            "Name": "No Data..",
+            "Email": "",
+            "SP Code": "",
+            "SP Name": "",
+            "Default": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Staff_Management_Sales_Persons.png",
+      "error": null,
+      "modal_count": 0
+    }
+  },
+  "Stock Transfers": {
+    "Transfer Stock Packet": {
+      "tables": [
+        [
+          {
+            "Transfer Date": "29-07-2026",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Packet No": "WH/26/00050",
+            "Creadted On": "29-07-2026",
+            "Action": ""
+          },
+          {
+            "Transfer Date": "27-07-2026",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Packet No": "WH/26/00049",
+            "Creadted On": "27-07-2026",
+            "Action": ""
+          },
+          {
+            "Transfer Date": "27-07-2026",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Packet No": "WH/26/00048",
+            "Creadted On": "27-07-2026",
+            "Action": ""
+          },
+          {
+            "Transfer Date": "27-07-2026",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Packet No": "WH/26/00047",
+            "Creadted On": "27-07-2026",
+            "Action": ""
+          },
+          {
+            "Transfer Date": "27-07-2026",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Packet No": "WH/26/00046",
+            "Creadted On": "27-07-2026",
+            "Action": ""
+          },
+          {
+            "Transfer Date": "27-07-2026",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Packet No": "WH/26/00045",
+            "Creadted On": "27-07-2026",
+            "Action": ""
+          },
+          {
+            "Transfer Date": "27-07-2026",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Packet No": "WH/26/00044",
+            "Creadted On": "27-07-2026",
+            "Action": ""
+          },
+          {
+            "Transfer Date": "27-07-2026",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Packet No": "WH/26/00043",
+            "Creadted On": "27-07-2026",
+            "Action": ""
+          },
+          {
+            "Transfer Date": "27-07-2026",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Packet No": "WH/26/00042",
+            "Creadted On": "27-07-2026",
+            "Action": ""
+          },
+          {
+            "Transfer Date": "25-07-2026",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Packet No": "WH/26/00041",
+            "Creadted On": "25-07-2026",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [
+        {
+          "Packet No": ": WH/26/00050",
+          "STP Date": ": 29-07-2026",
+          "Is Location Created": ": Yes",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "Packet No": ": WH/26/00049",
+          "STP Date": ": 27-07-2026",
+          "Is Location Created": ": Yes",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "Packet No": ": WH/26/00048",
+          "STP Date": ": 27-07-2026",
+          "Is Location Created": ": Yes",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "Packet No": ": WH/26/00047",
+          "STP Date": ": 27-07-2026",
+          "Is Location Created": ": Yes",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "Packet No": ": WH/26/00046",
+          "STP Date": ": 27-07-2026",
+          "Is Location Created": ": Yes",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "Packet No": ": WH/26/00045",
+          "STP Date": ": 27-07-2026",
+          "Is Location Created": ": Yes",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "Packet No": ": WH/26/00044",
+          "STP Date": ": 27-07-2026",
+          "Is Location Created": ": Yes",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "Packet No": ": WH/26/00043",
+          "STP Date": ": 27-07-2026",
+          "Is Location Created": ": Yes",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "Packet No": ": WH/26/00042",
+          "STP Date": ": 27-07-2026",
+          "Is Location Created": ": Yes",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "Packet No": ": WH/26/00041",
+          "STP Date": ": 25-07-2026",
+          "Is Location Created": ": Yes",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        }
+      ],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Stock_Transfers_Transfer_Stock_Packet.png",
+      "error": null,
+      "modal_count": 10
+    },
+    "Transfer Stock Location": {
+      "tables": [
+        [
+          {
+            "Packet No": "WH/26/00014",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Transfer Date": "29-07-2026",
+            "Action": ""
+          },
+          {
+            "Packet No": "WH/26/00013",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Transfer Date": "27-07-2026",
+            "Action": ""
+          },
+          {
+            "Packet No": "WH/26/00012",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Transfer Date": "25-07-2026",
+            "Action": ""
+          },
+          {
+            "Packet No": "WH/26/00011",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Transfer Date": "25-07-2026",
+            "Action": ""
+          },
+          {
+            "Packet No": "WH/26/00010",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Transfer Date": "23-07-2026",
+            "Action": ""
+          },
+          {
+            "Packet No": "WH/26/00009",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Transfer Date": "23-07-2026",
+            "Action": ""
+          },
+          {
+            "Packet No": "WH/26/00008",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Transfer Date": "20-07-2026",
+            "Action": ""
+          },
+          {
+            "Packet No": "WH/26/00007",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Transfer Date": "19-07-2026",
+            "Action": ""
+          },
+          {
+            "Packet No": "WH/26/00006",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Transfer Date": "18-07-2026",
+            "Action": ""
+          },
+          {
+            "Packet No": "WH/26/00005",
+            "Transfer From": "Temple Fabrics Warehouse",
+            "Transfer To": "TEMPLE FABRIC JNR",
+            "Transfer Date": "18-07-2026",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [
+        {
+          "STL No": ": WH/26/00014",
+          "STL Date": ": WH/26/00014",
+          "Stock Transfer Waybill": ": N/A",
+          "Is Received": ": Yes",
+          "Packet No's": ": WH/26/00047, WH/26/00048, WH/26/00049, WH/26/00050",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "STL No": ": WH/26/00013",
+          "STL Date": ": WH/26/00013",
+          "Stock Transfer Waybill": ": N/A",
+          "Is Received": ": Yes",
+          "Packet No's": ": WH/26/00041, WH/26/00042, WH/26/00043, WH/26/00044, WH/26/00045, WH/26/00046",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "STL No": ": WH/26/00012",
+          "STL Date": ": WH/26/00012",
+          "Stock Transfer Waybill": ": N/A",
+          "Is Received": ": Yes",
+          "Packet No's": ": WH/26/00039, WH/26/00040",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "STL No": ": WH/26/00011",
+          "STL Date": ": WH/26/00011",
+          "Stock Transfer Waybill": ": N/A",
+          "Is Received": ": Yes",
+          "Packet No's": ": WH/26/00036, WH/26/00037, WH/26/00038",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "STL No": ": WH/26/00010",
+          "STL Date": ": WH/26/00010",
+          "Stock Transfer Waybill": ": N/A",
+          "Is Received": ": Yes",
+          "Packet No's": ": WH/26/00033, WH/26/00034, WH/26/00035",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "STL No": ": WH/26/00009",
+          "STL Date": ": WH/26/00009",
+          "Stock Transfer Waybill": ": N/A",
+          "Is Received": ": Yes",
+          "Packet No's": ": WH/26/00030, WH/26/00031, WH/26/00032",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "STL No": ": WH/26/00008",
+          "STL Date": ": WH/26/00008",
+          "Stock Transfer Waybill": ": N/A",
+          "Is Received": ": Yes",
+          "Packet No's": ": WH/26/00027, WH/26/00028, WH/26/00029",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "STL No": ": WH/26/00007",
+          "STL Date": ": WH/26/00007",
+          "Stock Transfer Waybill": ": N/A",
+          "Is Received": ": Yes",
+          "Packet No's": ": WH/26/00024, WH/26/00025, WH/26/00026",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "STL No": ": WH/26/00006",
+          "STL Date": ": WH/26/00006",
+          "Stock Transfer Waybill": ": N/A",
+          "Is Received": ": Yes",
+          "Packet No's": ": WH/26/00019, WH/26/00020, WH/26/00021, WH/26/00022, WH/26/00023",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        },
+        {
+          "STL No": ": WH/26/00005",
+          "STL Date": ": WH/26/00005",
+          "Stock Transfer Waybill": ": N/A",
+          "Is Received": ": Yes",
+          "Packet No's": ": WH/26/00013, WH/26/00014, WH/26/00015, WH/26/00016, WH/26/00017, WH/26/00018",
+          "Financial Year": ": 2026-2027",
+          "Location Name": ": TEMPLE FABRIC JNR",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ":",
+          "State": ": Karnataka"
+        }
+      ],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Stock_Transfers_Transfer_Stock_Location.png",
+      "error": null,
+      "modal_count": 10
+    },
+    "Transfer Stock Received": {
+      "tables": [
+        [
+          {
+            "Packet No": "No Data..",
+            "Transfer From": "",
+            "Transfer To": "",
+            "Date": "",
+            "Sent Qty": "",
+            "Received Qty": "",
+            "Pending Qty": "",
+            "Action": ""
+          }
+        ],
+        [
+          {
+            "STR Code": "26/jnr/007",
+            "STR Date": "29-07-2026",
+            "Transfer From": "TEMPLE FABRIC JNR (29AANFT6295P1ZW)",
+            "Transfer To": "Temple Fabrics Warehouse (29AANFT6295P1ZW)",
+            "Created On": "29-07-2026",
+            "Action": ""
+          },
+          {
+            "STR Code": "26/jnr/006",
+            "STR Date": "27-07-2026",
+            "Transfer From": "TEMPLE FABRIC JNR (29AANFT6295P1ZW)",
+            "Transfer To": "Temple Fabrics Warehouse (29AANFT6295P1ZW)",
+            "Created On": "27-07-2026",
+            "Action": ""
+          },
+          {
+            "STR Code": "26/jnr/005",
+            "STR Date": "25-07-2026",
+            "Transfer From": "TEMPLE FABRIC JNR (29AANFT6295P1ZW)",
+            "Transfer To": "Temple Fabrics Warehouse (29AANFT6295P1ZW)",
+            "Created On": "25-07-2026",
+            "Action": ""
+          },
+          {
+            "STR Code": "26/jnr/004",
+            "STR Date": "23-07-2026",
+            "Transfer From": "TEMPLE FABRIC JNR (29AANFT6295P1ZW)",
+            "Transfer To": "Temple Fabrics Warehouse (29AANFT6295P1ZW)",
+            "Created On": "23-07-2026",
+            "Action": ""
+          },
+          {
+            "STR Code": "26/jnr/003",
+            "STR Date": "19-07-2026",
+            "Transfer From": "TEMPLE FABRIC JNR (29AANFT6295P1ZW)",
+            "Transfer To": "Temple Fabrics Warehouse (29AANFT6295P1ZW)",
+            "Created On": "19-07-2026",
+            "Action": ""
+          },
+          {
+            "STR Code": "26/jnr/002",
+            "STR Date": "19-07-2026",
+            "Transfer From": "TEMPLE FABRIC JNR (29AANFT6295P1ZW)",
+            "Transfer To": "Temple Fabrics Warehouse (29AANFT6295P1ZW)",
+            "Created On": "19-07-2026",
+            "Action": ""
+          },
+          {
+            "STR Code": "26/jnr/001",
+            "STR Date": "13-07-2026",
+            "Transfer From": "TEMPLE FABRIC JNR (29AANFT6295P1ZW)",
+            "Transfer To": "Temple Fabrics Warehouse (29AANFT6295P1ZW)",
+            "Created On": "13-07-2026",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [
+        {
+          "STR No": ": 26/jnr/007",
+          "STR Date": ": 29-07-2026",
+          "STL No": ": jnr26/007",
+          "Received Stock Point": ":",
+          "Location Name": ": Temple Fabrics Warehouse",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ": kms arcade, 2nd floor, 4th block,",
+          "State": ": Karnataka"
+        },
+        {
+          "STR No": ": 26/jnr/006",
+          "STR Date": ": 27-07-2026",
+          "STL No": ": jnr26/006",
+          "Received Stock Point": ": Warehouse",
+          "Location Name": ": Temple Fabrics Warehouse",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ": kms arcade, 2nd floor, 4th block,",
+          "State": ": Karnataka"
+        },
+        {
+          "STR No": ": 26/jnr/005",
+          "STR Date": ": 25-07-2026",
+          "STL No": ": jnr26/005",
+          "Received Stock Point": ": Warehouse",
+          "Location Name": ": Temple Fabrics Warehouse",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ": kms arcade, 2nd floor, 4th block,",
+          "State": ": Karnataka"
+        },
+        {
+          "STR No": ": 26/jnr/004",
+          "STR Date": ": 23-07-2026",
+          "STL No": ": jnr26/004",
+          "Received Stock Point": ": Warehouse",
+          "Location Name": ": Temple Fabrics Warehouse",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ": kms arcade, 2nd floor, 4th block,",
+          "State": ": Karnataka"
+        },
+        {
+          "STR No": ": 26/jnr/003",
+          "STR Date": ": 19-07-2026",
+          "STL No": ": jnr26/003",
+          "Received Stock Point": ": Warehouse",
+          "Location Name": ": Temple Fabrics Warehouse",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ": kms arcade, 2nd floor, 4th block,",
+          "State": ": Karnataka"
+        },
+        {
+          "STR No": ": 26/jnr/002",
+          "STR Date": ": 19-07-2026",
+          "STL No": ": jnr26/002",
+          "Received Stock Point": ": Warehouse",
+          "Location Name": ": Temple Fabrics Warehouse",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ": kms arcade, 2nd floor, 4th block,",
+          "State": ": Karnataka"
+        },
+        {
+          "STR No": ": 26/jnr/001",
+          "STR Date": ": 13-07-2026",
+          "STL No": ": jnr26/001",
+          "Received Stock Point": ": Warehouse",
+          "Location Name": ": Temple Fabrics Warehouse",
+          "GSTN": ": 29AANFT6295P1ZW",
+          "Address": ": kms arcade, 2nd floor, 4th block,",
+          "State": ": Karnataka"
+        }
+      ],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Stock_Transfers_Transfer_Stock_Received.png",
+      "error": null,
+      "modal_count": 7
+    }
+  },
+  "Inter Company Sell": {
+    "Delivery Challan": {
+      "tables": [
+        [
+          {
+            "Customer Name": "No Data..",
+            "To Business": "",
+            "To Location": "",
+            "DC No": "",
+            "DC Date": "",
+            "Creadted On": "",
+            "Total Value": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Inter_Company_Sell_Delivery_Challan.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Sales Invoice": {
+      "tables": [
+        [
+          {
+            "Invoice Date": "29-07-2026",
+            "Invoice No": "TFJ/26/0088",
+            "Customer Name": "OMSHREE FABS",
+            "To Business": "OMSHREE FABS (TEMPLE FABRICS , SILKS AND SAREES)",
+            "To Location": "OMSHREE FABS (TEMPLE FABRICS RRN)",
+            "Action": ""
+          },
+          {
+            "Invoice Date": "29-07-2026",
+            "Invoice No": "TFJ/26/0087",
+            "Customer Name": "Suvarna Fabrics DVG",
+            "To Business": "SUVARNA FABRICS",
+            "To Location": "SUVARNA FABRICS",
+            "Action": ""
+          },
+          {
+            "Invoice Date": "28-07-2026",
+            "Invoice No": "TFJ/26/0086",
+            "Customer Name": "OMSHREE FABS",
+            "To Business": "OMSHREE FABS (TEMPLE FABRICS , SILKS AND SAREES)",
+            "To Location": "OMSHREE FABS (TEMPLE FABRICS RRN)",
+            "Action": ""
+          },
+          {
+            "Invoice Date": "28-07-2026",
+            "Invoice No": "TFJ/26/0085",
+            "Customer Name": "Suvarna Fabrics DVG",
+            "To Business": "SUVARNA FABRICS",
+            "To Location": "SUVARNA FABRICS",
+            "Action": ""
+          },
+          {
+            "Invoice Date": "27-07-2026",
+            "Invoice No": "TFJ/26/0084",
+            "Customer Name": "Temple Fabrics - HSR",
+            "To Business": "TEMPLE FABRICS, SILKS & SAREES",
+            "To Location": "TEMPLE FABRICS, SILKS & SAREES",
+            "Action": ""
+          },
+          {
+            "Invoice Date": "27-07-2026",
+            "Invoice No": "TFJ/26/0083",
+            "Customer Name": "Suvarna Fabrics DVG",
+            "To Business": "SUVARNA FABRICS",
+            "To Location": "SUVARNA FABRICS",
+            "Action": ""
+          },
+          {
+            "Invoice Date": "25-07-2026",
+            "Invoice No": "TFJ/26/0082",
+            "Customer Name": "Suvarna Fabrics DVG",
+            "To Business": "SUVARNA FABRICS",
+            "To Location": "SUVARNA FABRICS",
+            "Action": ""
+          },
+          {
+            "Invoice Date": "25-07-2026",
+            "Invoice No": "TFJ/26/0081",
+            "Customer Name": "OMSHREE FABS",
+            "To Business": "OMSHREE FABS (TEMPLE FABRICS , SILKS AND SAREES)",
+            "To Location": "OMSHREE FABS (TEMPLE FABRICS RRN)",
+            "Action": ""
+          },
+          {
+            "Invoice Date": "24-07-2026",
+            "Invoice No": "TFJ/26/0080",
+            "Customer Name": "Temple Fabrics - HSR",
+            "To Business": "TEMPLE FABRICS, SILKS & SAREES",
+            "To Location": "TEMPLE FABRICS, SILKS & SAREES",
+            "Action": ""
+          },
+          {
+            "Invoice Date": "24-07-2026",
+            "Invoice No": "TFJ/26/0079",
+            "Customer Name": "Suvarna Fabrics DVG",
+            "To Business": "SUVARNA FABRICS",
+            "To Location": "SUVARNA FABRICS",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [
+        {
+          "Customer Name": ": OMSHREE FABS [ IC2 ]",
+          "Sales Return Created": ": No",
+          "SI No": ": TFJ/26/0088",
+          "SI Date": ": 29-07-2026",
+          "To Business": ": OMSHREE FABS (TEMPLE FABRICS , SILKS AND SAREES)",
+          "To Location": ": OMSHREE FABS (TEMPLE FABRICS RRN)",
+          "Dc Codes": ": WH/DC/26/0934, WH/DC/26/0935, WH/DC/26/0936, WH/DC/26/0937, WH/DC/26/0938, WH/DC/26/0939, WH/DC/26/0942",
+          "Financial Year": ": 2026-2027"
+        },
+        {
+          "Customer Name": ": Suvarna Fabrics DVG [ IC3 ]",
+          "Sales Return Created": ": No",
+          "SI No": ": TFJ/26/0087",
+          "SI Date": ": 29-07-2026",
+          "To Business": ": SUVARNA FABRICS",
+          "To Location": ": SUVARNA FABRICS",
+          "Dc Codes": ": WH/DC/26/0940, WH/DC/26/0941",
+          "Financial Year": ": 2026-2027"
+        },
+        {
+          "Customer Name": ": OMSHREE FABS [ IC2 ]",
+          "Sales Return Created": ": No",
+          "SI No": ": TFJ/26/0086",
+          "SI Date": ": 28-07-2026",
+          "To Business": ": OMSHREE FABS (TEMPLE FABRICS , SILKS AND SAREES)",
+          "To Location": ": OMSHREE FABS (TEMPLE FABRICS RRN)",
+          "Dc Codes": ": WH/DC/26/0904, WH/DC/26/0905, WH/DC/26/0909, WH/DC/26/0910, WH/DC/26/0911, WH/DC/26/0928, WH/DC/26/0929, WH/DC/26/0930, WH/DC/26/0931, WH/DC/26/0932, WH/DC/26/0933",
+          "Financial Year": ": 2026-2027"
+        },
+        {
+          "Customer Name": ": Suvarna Fabrics DVG [ IC3 ]",
+          "Sales Return Created": ": No",
+          "SI No": ": TFJ/26/0085",
+          "SI Date": ": 28-07-2026",
+          "To Business": ": SUVARNA FABRICS",
+          "To Location": ": SUVARNA FABRICS",
+          "Dc Codes": ": WH/DC/26/0920, WH/DC/26/0921, WH/DC/26/0922, WH/DC/26/0923, WH/DC/26/0924, WH/DC/26/0925, WH/DC/26/0926, WH/DC/26/0927",
+          "Financial Year": ": 2026-2027"
+        },
+        {
+          "Customer Name": ": Temple Fabrics - HSR [ IC1 ]",
+          "Sales Return Created": ": No",
+          "SI No": ": TFJ/26/0084",
+          "SI Date": ": 27-07-2026",
+          "To Business": ": TEMPLE FABRICS, SILKS & SAREES",
+          "To Location": ": TEMPLE FABRICS, SILKS & SAREES",
+          "Dc Codes": ": WH/DC/26/0897, WH/DC/26/0898, WH/DC/26/0901, WH/DC/26/0906, WH/DC/26/0912, WH/DC/26/0913, WH/DC/26/0916, WH/DC/26/0917, WH/DC/26/0918, WH/DC/26/0919",
+          "Financial Year": ": 2026-2027"
+        },
+        {
+          "Customer Name": ": Suvarna Fabrics DVG [ IC3 ]",
+          "Sales Return Created": ": No",
+          "SI No": ": TFJ/26/0083",
+          "SI Date": ": 27-07-2026",
+          "To Business": ": SUVARNA FABRICS",
+          "To Location": ": SUVARNA FABRICS",
+          "Dc Codes": ": WH/DC/26/0907, WH/DC/26/0908, WH/DC/26/0914, WH/DC/26/0915",
+          "Financial Year": ": 2026-2027"
+        },
+        {
+          "Customer Name": ": Suvarna Fabrics DVG [ IC3 ]",
+          "Sales Return Created": ": No",
+          "SI No": ": TFJ/26/0082",
+          "SI Date": ": 25-07-2026",
+          "To Business": ": SUVARNA FABRICS",
+          "To Location": ": SUVARNA FABRICS",
+          "Dc Codes": ": WH/DC/26/0892, WH/DC/26/0893, WH/DC/26/0894, WH/DC/26/0895, WH/DC/26/0896, WH/DC/26/0902, WH/DC/26/0903",
+          "Financial Year": ": 2026-2027"
+        },
+        {
+          "Customer Name": ": OMSHREE FABS [ IC2 ]",
+          "Sales Return Created": ": No",
+          "SI No": ": TFJ/26/0081",
+          "SI Date": ": 25-07-2026",
+          "To Business": ": OMSHREE FABS (TEMPLE FABRICS , SILKS AND SAREES)",
+          "To Location": ": OMSHREE FABS (TEMPLE FABRICS RRN)",
+          "Dc Codes": ": WH/DC/26/0857, WH/DC/26/0858, WH/DC/26/0859, WH/DC/26/0860, WH/DC/26/0861, WH/DC/26/0862, WH/DC/26/0863, WH/DC/26/0864, WH/DC/26/0884, WH/DC/26/0885, WH/DC/26/0890, WH/DC/26/0891, WH/DC/26/0899, WH/DC/26/0900",
+          "Financial Year": ": 2026-2027"
+        },
+        {
+          "Customer Name": ": Temple Fabrics - HSR [ IC1 ]",
+          "Sales Return Created": ": No",
+          "SI No": ": TFJ/26/0080",
+          "SI Date": ": 24-07-2026",
+          "To Business": ": TEMPLE FABRICS, SILKS & SAREES",
+          "To Location": ": TEMPLE FABRICS, SILKS & SAREES",
+          "Dc Codes": ": WH/DC/26/0835, WH/DC/26/0881, WH/DC/26/0887, WH/DC/26/0888, WH/DC/26/0889",
+          "Financial Year": ": 2026-2027"
+        },
+        {
+          "Customer Name": ": Suvarna Fabrics DVG [ IC3 ]",
+          "Sales Return Created": ": No",
+          "SI No": ": TFJ/26/0079",
+          "SI Date": ": 24-07-2026",
+          "To Business": ": SUVARNA FABRICS",
+          "To Location": ": SUVARNA FABRICS",
+          "Dc Codes": ": WH/DC/26/0845, WH/DC/26/0846, WH/DC/26/0865, WH/DC/26/0866, WH/DC/26/0867, WH/DC/26/0868, WH/DC/26/0869, WH/DC/26/0870, WH/DC/26/0874, WH/DC/26/0875, WH/DC/26/0876, WH/DC/26/0877, WH/DC/26/0878, WH/DC/26/0879",
+          "Financial Year": ": 2026-2027"
+        }
+      ],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Inter_Company_Sell_Sales_Invoice.png",
+      "error": null,
+      "modal_count": 10
+    },
+    "Auto Purchases Received": {
+      "tables": [
+        [
+          {
+            "Invoice No": "No Data..",
+            "Transfer Business": "",
+            "Transfer Location": "",
+            "Date": "",
+            "Action": ""
+          }
+        ],
+        [
+          {
+            "Rec No": "No Data..",
+            "GRC No": "",
+            "Form Business": "",
+            "Form Location": "",
+            "Date": "",
+            "Fin Year": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Inter_Company_Sell_Auto_Purchases_Received.png",
+      "error": null,
+      "modal_count": 0
+    }
+  },
+  "Reports": {
+    "Barcode Report": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Barcode_Report.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Receipt Voucher Report": {
+      "tables": [
+        [
+          {
+            "Voucher No": "No data found",
+            "Date": "",
+            "Customer Name": "",
+            "Total Amount": "",
+            "Bank": "",
+            "Cash": "",
+            "UPI": "",
+            "Advance Amount": "",
+            "Advance Status": ""
+          },
+          {
+            "Voucher No": "Total",
+            "Date": "",
+            "Customer Name": "",
+            "Total Amount": "0.00",
+            "Bank": "0.00",
+            "Cash": "0.00",
+            "UPI": "0.00",
+            "Advance Amount": "0.00",
+            "Advance Status": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Receipt_Voucher_Report.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Payment Voucher Report": {
+      "tables": [
+        [
+          {
+            "Voucher No": "No data found",
+            "Date": "",
+            "Supplier": "",
+            "Total Amount": "",
+            "Bank": "",
+            "Cash": "",
+            "Discount": "",
+            "On Account": "",
+            "Settlement Status": ""
+          },
+          {
+            "Voucher No": "Total",
+            "Date": "",
+            "Supplier": "",
+            "Total Amount": "0.00",
+            "Bank": "0.00",
+            "Cash": "0.00",
+            "Discount": "0.00",
+            "On Account": "0.00",
+            "Settlement Status": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Payment_Voucher_Report.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Sales Analysis": {
+      "tables": [
+        [
+          {
+            "Location": "No data found",
+            "Sales Value": "",
+            "Return Value": "",
+            "Net Sales": "",
+            "Sale Quantity": "",
+            "Return Quantity": "",
+            "Net Qty": "",
+            "Bill Count": "",
+            "Average Basket Quantity": "",
+            "Average Basket value": ""
+          }
+        ],
+        [
+          {
+            "Group Name": "No data found",
+            "Net Sales": "",
+            "Sale Quantity": "",
+            "Bill Count": "",
+            "Average Basket Quantity": "",
+            "Average Basket value": ""
+          }
+        ],
+        [
+          {
+            "Group Name": "No data found",
+            "Net Sales": "",
+            "Sale Quantity": "",
+            "Bill Count": "",
+            "Average Basket Quantity": "",
+            "Average Basket value": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Sales_Analysis.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Sales Report": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Sales_Report.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Stock Image": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Stock_Image.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Sales Image": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Sales_Image.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Sales Person": {
+      "tables": [
+        [
+          {
+            "Sales Person": "ALL",
+            "Sell Qty": "132.40",
+            "Total Taxable": "156808.46",
+            "Sell Value": "164649.00",
+            "Return Qty": "0.00",
+            "Return Value": "0.00",
+            "Net Value": "164649.00"
+          },
+          {
+            "Sales Person": "MAMTHA",
+            "Sell Qty": "428.30",
+            "Total Taxable": "321661.62",
+            "Sell Value": "337744.80",
+            "Return Qty": "0.00",
+            "Return Value": "0.00",
+            "Net Value": "337744.80"
+          },
+          {
+            "Sales Person": "SUJATHA",
+            "Sell Qty": "417.46",
+            "Total Taxable": "330609.75",
+            "Sell Value": "348661.23",
+            "Return Qty": "1.00",
+            "Return Value": "1521.00",
+            "Net Value": "347140.23"
+          },
+          {
+            "Sales Person": "VINAY",
+            "Sell Qty": "461.14",
+            "Total Taxable": "339846.01",
+            "Sell Value": "358598.36",
+            "Return Qty": "1.00",
+            "Return Value": "1760.00",
+            "Net Value": "356838.36"
+          }
+        ],
+        [
+          {
+            "cells": [
+              "",
+              "Taxable",
+              "Sell Qty",
+              "Sell Value",
+              "Return Qty",
+              "Return Value",
+              "Net Value"
+            ]
+          },
+          {
+            "cells": [
+              "Total",
+              "1148925.84",
+              "1439.30",
+              "1209653.39",
+              "2.00",
+              "3281.00",
+              "1206372.39"
+            ]
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Sales_Person.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "POS Summary": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_POS_Summary.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "POS Report": {
+      "tables": [
+        [
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_POS_Report.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "POS Credit Note": {
+      "tables": [
+        [
+          {
+            "Location Name": "No Data..",
+            "Credit No.": "",
+            "Transaction Date": "",
+            "Final Total": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_POS_Credit_Note.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Item Stock": {
+      "tables": [
+        [
+          {
+            "Location Name": "Temple Fabrics Warehouse",
+            "Group Name": "FABRICS",
+            "Open Qty": "4697.03",
+            "Open Value": "962154.56",
+            "Inward Qty": "10335.05",
+            "Inward Value": "7235619.16",
+            "Outward Qty": "-9991.50",
+            "Outward Value": "-6923978.26",
+            "Close Qty": "5040.58",
+            "Close Value": "1273795.46"
+          },
+          {
+            "Location Name": "TEMPLE FABRIC JNR",
+            "Group Name": "FABRICS",
+            "Open Qty": "19339.70",
+            "Open Value": "4486105.31",
+            "Inward Qty": "1973.55",
+            "Inward Value": "1519011.47",
+            "Outward Qty": "-641.45",
+            "Outward Value": "-332253.11",
+            "Close Qty": "20671.80",
+            "Close Value": "5672863.68"
+          },
+          {
+            "Location Name": "Temple Fabrics Warehouse",
+            "Group Name": "SAREES",
+            "Open Qty": "459.00",
+            "Open Value": "1377883.01",
+            "Inward Qty": "1477.00",
+            "Inward Value": "3924645.75",
+            "Outward Qty": "-1628.00",
+            "Outward Value": "-4128217.50",
+            "Close Qty": "308.00",
+            "Close Value": "1174311.26"
+          },
+          {
+            "Location Name": "TEMPLE FABRIC JNR",
+            "Group Name": "SAREES",
+            "Open Qty": "1226.50",
+            "Open Value": "1280624.96",
+            "Inward Qty": "40.00",
+            "Inward Value": "63411.50",
+            "Outward Qty": "-102.00",
+            "Outward Value": "-99223.50",
+            "Close Qty": "1164.50",
+            "Close Value": "1244812.96"
+          },
+          {
+            "Location Name": "Temple Fabrics Warehouse",
+            "Group Name": "PLAIN FABRICS",
+            "Open Qty": "6086.52",
+            "Open Value": "720885.77",
+            "Inward Qty": "1478.75",
+            "Inward Value": "248544.05",
+            "Outward Qty": "-4144.00",
+            "Outward Value": "-543187.18",
+            "Close Qty": "3421.27",
+            "Close Value": "426242.64"
+          },
+          {
+            "Location Name": "TEMPLE FABRIC JNR",
+            "Group Name": "PLAIN FABRICS",
+            "Open Qty": "19412.60",
+            "Open Value": "3341633.72",
+            "Inward Qty": "208.94",
+            "Inward Value": "50861.25",
+            "Outward Qty": "-435.10",
+            "Outward Value": "-77722.36",
+            "Close Qty": "19186.44",
+            "Close Value": "3314772.62"
+          },
+          {
+            "Location Name": "Temple Fabrics Warehouse",
+            "Group Name": "3 PCS SUIT",
+            "Open Qty": "163.00",
+            "Open Value": "214575.00",
+            "Inward Qty": "0.00",
+            "Inward Value": "0.00",
+            "Outward Qty": "-146.00",
+            "Outward Value": "-195250.00",
+            "Close Qty": "17.00",
+            "Close Value": "19325.00"
+          },
+          {
+            "Location Name": "TEMPLE FABRIC JNR",
+            "Group Name": "3 PCS SUIT",
+            "Open Qty": "1.00",
+            "Open Value": "800.00",
+            "Inward Qty": "0.00",
+            "Inward Value": "0.00",
+            "Outward Qty": "0.00",
+            "Outward Value": "0.00",
+            "Close Qty": "1.00",
+            "Close Value": "800.00"
+          },
+          {
+            "Location Name": "Temple Fabrics Warehouse",
+            "Group Name": "DUPATTA",
+            "Open Qty": "12.00",
+            "Open Value": "14251.00",
+            "Inward Qty": "430.00",
+            "Inward Value": "253711.38",
+            "Outward Qty": "-376.00",
+            "Outward Value": "-226132.86",
+            "Close Qty": "66.00",
+            "Close Value": "41829.52"
+          },
+          {
+            "Location Name": "TEMPLE FABRIC JNR",
+            "Group Name": "DUPATTA",
+            "Open Qty": "662.00",
+            "Open Value": "467192.74",
+            "Inward Qty": "58.00",
+            "Inward Value": "27722.19",
+            "Outward Qty": "-62.00",
+            "Outward Value": "-22318.25",
+            "Close Qty": "658.00",
+            "Close Value": "472596.68"
+          },
+          {
+            "Location Name": "Temple Fabrics Warehouse",
+            "Group Name": "INSKIRT",
+            "Open Qty": "269.00",
+            "Open Value": "44975.00",
+            "Inward Qty": "416.00",
+            "Inward Value": "90020.00",
+            "Outward Qty": "-399.00",
+            "Outward Value": "-86195.00",
+            "Close Qty": "286.00",
+            "Close Value": "48800.00"
+          },
+          {
+            "Location Name": "TEMPLE FABRIC JNR",
+            "Group Name": "INSKIRT",
+            "Open Qty": "158.00",
+            "Open Value": "29150.00",
+            "Inward Qty": "146.00",
+            "Inward Value": "32350.00",
+            "Outward Qty": "-8.00",
+            "Outward Value": "-1630.00",
+            "Close Qty": "296.00",
+            "Close Value": "59870.00"
+          },
+          {
+            "Location Name": "TEMPLE FABRIC JNR",
+            "Group Name": "BORDER",
+            "Open Qty": "1.55",
+            "Open Value": "422.50",
+            "Inward Qty": "0.00",
+            "Inward Value": "0.00",
+            "Outward Qty": "0.00",
+            "Outward Value": "0.00",
+            "Close Qty": "1.55",
+            "Close Value": "422.50"
+          },
+          {
+            "Location Name": "Temple Fabrics Warehouse",
+            "Group Name": "MAGTA SHALYA",
+            "Open Qty": "8.00",
+            "Open Value": "3300.70",
+            "Inward Qty": "0.00",
+            "Inward Value": "0.00",
+            "Outward Qty": "0.00",
+            "Outward Value": "0.00",
+            "Close Qty": "8.00",
+            "Close Value": "3300.70"
+          },
+          {
+            "Location Name": "TEMPLE FABRIC JNR",
+            "Group Name": "PAVADA",
+            "Open Qty": "25.00",
+            "Open Value": "112197.04",
+            "Inward Qty": "0.00",
+            "Inward Value": "0.00",
+            "Outward Qty": "0.00",
+            "Outward Value": "0.00",
+            "Close Qty": "25.00",
+            "Close Value": "112197.04"
+          },
+          {
+            "Location Name": "",
+            "Group Name": "Total",
+            "Open Qty": "52520.90",
+            "Open Value": "13056151.31",
+            "Inward Qty": "16563.29",
+            "Inward Value": "13445896.75",
+            "Outward Qty": "-17933.05",
+            "Outward Value": "-12636108.01",
+            "Close Qty": "51151.14",
+            "Close Value": "13865940.05"
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Item_Stock.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Supplier Bill Report": {
+      "tables": [
+        [
+          {
+            "Action": "No data found",
+            "Location": "",
+            "Supplier": "",
+            "GRC No": "",
+            "Date": "",
+            "Bill Value": "",
+            "Purchase Qty": "",
+            "Rerurn Qty": "",
+            "Net Sale Qty": "",
+            "Close Qty": "",
+            "Close Bal": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Supplier_Bill_Report.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Supplier Outstanding Report": {
+      "tables": [
+        [
+          {
+            "SUPPLIER": "AHUJA TEXTILES",
+            "OUTSTANDING PURCHASE INVOICE": "53064.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "53064.00"
+          },
+          {
+            "SUPPLIER": "AKYA Studio, SURAT",
+            "OUTSTANDING PURCHASE INVOICE": "36359.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "36359.00"
+          },
+          {
+            "SUPPLIER": "ARPIT Silk India, AHMEDABAD",
+            "OUTSTANDING PURCHASE INVOICE": "45728.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "45728.00"
+          },
+          {
+            "SUPPLIER": "B KIRAN KUMAR, DHARMAVARAM",
+            "OUTSTANDING PURCHASE INVOICE": "68376.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "68376.00"
+          },
+          {
+            "SUPPLIER": "CHIRAG Tex Fab, SURAT",
+            "OUTSTANDING PURCHASE INVOICE": "17609.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "17609.00"
+          },
+          {
+            "SUPPLIER": "CHIRALA Handlooms Pvt Ltd, CHENNAI",
+            "OUTSTANDING PURCHASE INVOICE": "4410.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "4410.00"
+          },
+          {
+            "SUPPLIER": "CROSS WOVEN, VARANASI",
+            "OUTSTANDING PURCHASE INVOICE": "290385.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "290385.00"
+          },
+          {
+            "SUPPLIER": "DIVYAM Ckreation, SURAT",
+            "OUTSTANDING PURCHASE INVOICE": "5300.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "5300.00"
+          },
+          {
+            "SUPPLIER": "H NOORUL HASAN ABDUL MATIN & Co. Pvt Ltd",
+            "OUTSTANDING PURCHASE INVOICE": "1005102.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "1005102.00"
+          },
+          {
+            "SUPPLIER": "HAJI MAJIDULLAH Fashion Pvt Ltd, VARANASI",
+            "OUTSTANDING PURCHASE INVOICE": "2562502.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "2562502.00"
+          },
+          {
+            "SUPPLIER": "JDS Design Studio (P) Ltd, VARANASI",
+            "OUTSTANDING PURCHASE INVOICE": "775872.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "775872.00"
+          },
+          {
+            "SUPPLIER": "KRISHNA Sundry Cottage Industries Pvt. Ltd., VARANASI",
+            "OUTSTANDING PURCHASE INVOICE": "632753.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "632753.00"
+          },
+          {
+            "SUPPLIER": "KRITIKA Sarees, BANGALORE",
+            "OUTSTANDING PURCHASE INVOICE": "24979.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "24979.00"
+          },
+          {
+            "SUPPLIER": "KUNJ Sarees, VARANASI",
+            "OUTSTANDING PURCHASE INVOICE": "533332.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "533332.00"
+          },
+          {
+            "SUPPLIER": "LOYAL Fab, VARANASI",
+            "OUTSTANDING PURCHASE INVOICE": "57079.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "57079.00"
+          },
+          {
+            "SUPPLIER": "Page Total",
+            "OUTSTANDING PURCHASE INVOICE": "6112850.00",
+            "OUTSTANDING DEBIT NOTE": "0.00",
+            "TOTAL DUE": "6112850.00"
+          }
+        ],
+        [
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00265",
+            "Date": "25-07-2026",
+            "Supplier": "AHUJA TEXTILES",
+            "Original Amount": "53064.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "53064.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00263",
+            "Date": "24-07-2026",
+            "Supplier": "AKYA Studio, SURAT",
+            "Original Amount": "36359.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "36359.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00245",
+            "Date": "19-07-2026",
+            "Supplier": "ARPIT Silk India, AHMEDABAD",
+            "Original Amount": "45728.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "45728.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00227",
+            "Date": "16-07-2026",
+            "Supplier": "B KIRAN KUMAR, DHARMAVARAM",
+            "Original Amount": "68376.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "68376.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00272",
+            "Date": "25-07-2026",
+            "Supplier": "CHIRAG Tex Fab, SURAT",
+            "Original Amount": "17609.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "17609.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00267",
+            "Date": "25-07-2026",
+            "Supplier": "CHIRALA Handlooms Pvt Ltd, CHENNAI",
+            "Original Amount": "4410.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "4410.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00209",
+            "Date": "14-07-2026",
+            "Supplier": "CROSS WOVEN, VARANASI",
+            "Original Amount": "290385.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "290385.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00276",
+            "Date": "28-07-2026",
+            "Supplier": "DIVYAM Ckreation, SURAT",
+            "Original Amount": "5300.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "5300.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00223",
+            "Date": "15-07-2026",
+            "Supplier": "H NOORUL HASAN ABDUL MATIN & Co. Pvt Ltd",
+            "Original Amount": "438480.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "438480.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00262",
+            "Date": "24-07-2026",
+            "Supplier": "H NOORUL HASAN ABDUL MATIN & Co. Pvt Ltd",
+            "Original Amount": "566622.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "566622.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00215",
+            "Date": "14-07-2026",
+            "Supplier": "HAJI MAJIDULLAH Fashion Pvt Ltd, VARANASI",
+            "Original Amount": "311434.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "311434.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00218",
+            "Date": "14-07-2026",
+            "Supplier": "HAJI MAJIDULLAH Fashion Pvt Ltd, VARANASI",
+            "Original Amount": "274317.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "274317.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00219",
+            "Date": "14-07-2026",
+            "Supplier": "HAJI MAJIDULLAH Fashion Pvt Ltd, VARANASI",
+            "Original Amount": "240534.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "240534.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00220",
+            "Date": "14-07-2026",
+            "Supplier": "HAJI MAJIDULLAH Fashion Pvt Ltd, VARANASI",
+            "Original Amount": "238595.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "238595.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Purchase Invoice",
+            "Document No": "26/00222",
+            "Date": "14-07-2026",
+            "Supplier": "HAJI MAJIDULLAH Fashion Pvt Ltd, VARANASI",
+            "Original Amount": "238508.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "238508.00",
+            "Status": "Unadjusted"
+          },
+          {
+            "Document Type": "Page Total",
+            "Document No": "",
+            "Date": "",
+            "Supplier": "",
+            "Original Amount": "2829721.00",
+            "Adjusted Amount": "0.00",
+            "Outstanding": "2829721.00",
+            "Status": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Supplier_Outstanding_Report.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Customer Outstanding Report": {
+      "tables": [
+        [
+          {
+            "Customer": "KRUPA",
+            "Outstanding POS Invoice": "70.00",
+            "Outstanding POS Return": "0.00",
+            "Total Due": "70.00"
+          },
+          {
+            "Customer": "Mrs jaya",
+            "Outstanding POS Invoice": "46.00",
+            "Outstanding POS Return": "0.00",
+            "Total Due": "46.00"
+          },
+          {
+            "Customer": "Total",
+            "Outstanding POS Invoice": "116.00",
+            "Outstanding POS Return": "0.00",
+            "Total Due": "116.00"
+          }
+        ],
+        [
+          {
+            "Document Type": "POS Invoice",
+            "Document No": "TFJ/26/01781",
+            "Date": "20-07-2026",
+            "Customer": "KRUPA",
+            "Original Amount": "430.00",
+            "Adjusted Amount": "360.00",
+            "Outstanding": "70.00",
+            "Status": "Partially Adjusted"
+          },
+          {
+            "Document Type": "POS Invoice",
+            "Document No": "TFJ/26/01777",
+            "Date": "20-07-2026",
+            "Customer": "Mrs jaya",
+            "Original Amount": "4454.00",
+            "Adjusted Amount": "4408.00",
+            "Outstanding": "46.00",
+            "Status": "Partially Adjusted"
+          },
+          {
+            "Document Type": "POS Invoice",
+            "Document No": "TFJ/26/01716",
+            "Date": "18-07-2026",
+            "Customer": "Walk In Customer - Karnataka",
+            "Original Amount": "375.00",
+            "Adjusted Amount": "250.00",
+            "Outstanding": "125.00",
+            "Status": "Partially Adjusted"
+          },
+          {
+            "Document Type": "Total",
+            "Document No": "",
+            "Date": "",
+            "Customer": "",
+            "Original Amount": "",
+            "Adjusted Amount": "",
+            "Outstanding": "241.00",
+            "Status": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Customer_Outstanding_Report.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Stock Gallery View": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Stock_Gallery_View.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Stock Summary": {
+      "tables": [
+        [
+          {
+            "Location": "Temple Fabrics Warehouse",
+            "Group Name": "FABRICS",
+            "Total Qty": "5040.58",
+            "CP Value": "5292609.00",
+            "RSP Value": "10686029.60",
+            "WSP Value": "6086500.35"
+          },
+          {
+            "Location": "TEMPLE FABRIC JNR",
+            "Group Name": "FABRICS",
+            "Total Qty": "20671.80",
+            "CP Value": "3617565.00",
+            "RSP Value": "7441848.00",
+            "WSP Value": "4160199.75"
+          },
+          {
+            "Location": "Temple Fabrics Warehouse",
+            "Group Name": "SAREES",
+            "Total Qty": "308.00",
+            "CP Value": "126129.08",
+            "RSP Value": "267956.92",
+            "WSP Value": "145049.52"
+          },
+          {
+            "Location": "TEMPLE FABRIC JNR",
+            "Group Name": "SAREES",
+            "Total Qty": "1164.50",
+            "CP Value": "925777.50",
+            "RSP Value": "2044326.33",
+            "WSP Value": "1064644.13"
+          },
+          {
+            "Location": "Temple Fabrics Warehouse",
+            "Group Name": "PLAIN FABRICS",
+            "Total Qty": "3421.27",
+            "CP Value": "564509.55",
+            "RSP Value": "1471146.10",
+            "WSP Value": "649185.98"
+          },
+          {
+            "Location": "TEMPLE FABRIC JNR",
+            "Group Name": "PLAIN FABRICS",
+            "Total Qty": "19186.44",
+            "CP Value": "1630847.40",
+            "RSP Value": "6331525.20",
+            "WSP Value": "1875474.51"
+          },
+          {
+            "Location": "Temple Fabrics Warehouse",
+            "Group Name": "3 PCS SUIT",
+            "Total Qty": "17.00",
+            "CP Value": "22695.00",
+            "RSP Value": "44200.00",
+            "WSP Value": "26095.00"
+          },
+          {
+            "Location": "TEMPLE FABRIC JNR",
+            "Group Name": "3 PCS SUIT",
+            "Total Qty": "1.00",
+            "CP Value": "800.00",
+            "RSP Value": "1700.00",
+            "WSP Value": "900.00"
+          },
+          {
+            "Location": "Temple Fabrics Warehouse",
+            "Group Name": "DUPATTA",
+            "Total Qty": "66.00",
+            "CP Value": "6798.00",
+            "RSP Value": "14520.00",
+            "WSP Value": "7854.00"
+          },
+          {
+            "Location": "TEMPLE FABRIC JNR",
+            "Group Name": "DUPATTA",
+            "Total Qty": "658.00",
+            "CP Value": "377231.40",
+            "RSP Value": "644840.00",
+            "WSP Value": "433819.40"
+          },
+          {
+            "Location": "Temple Fabrics Warehouse",
+            "Group Name": "INSKIRT",
+            "Total Qty": "286.00",
+            "CP Value": "35750.00",
+            "RSP Value": "65780.00",
+            "WSP Value": "41112.50"
+          },
+          {
+            "Location": "TEMPLE FABRIC JNR",
+            "Group Name": "INSKIRT",
+            "Total Qty": "296.00",
+            "CP Value": "56240.00",
+            "RSP Value": "121360.00",
+            "WSP Value": "64676.00"
+          },
+          {
+            "Location": "TEMPLE FABRIC JNR",
+            "Group Name": "BORDER",
+            "Total Qty": "1.55",
+            "CP Value": "426.25",
+            "RSP Value": "682.00",
+            "WSP Value": "490.19"
+          },
+          {
+            "Location": "Temple Fabrics Warehouse",
+            "Group Name": "MAGTA SHALYA",
+            "Total Qty": "8.00",
+            "CP Value": "669.60",
+            "RSP Value": "1440.00",
+            "WSP Value": "828.00"
+          },
+          {
+            "Location": "TEMPLE FABRIC JNR",
+            "Group Name": "PAVADA",
+            "Total Qty": "25.00",
+            "CP Value": "47500.00",
+            "RSP Value": "90277.00",
+            "WSP Value": "54625.00"
+          },
+          {
+            "Location": "Total",
+            "Group Name": "51151.14",
+            "Total Qty": "12705547.78",
+            "CP Value": "29227631.15",
+            "RSP Value": "14611454.32",
+            "WSP Value": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Stock_Summary.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "GST Summary": {
+      "tables": [
+        [
+          {
+            "DESCRIPTION": "POS B2B",
+            "NO. OF RECORDS": "3",
+            "SUB TOTAL (NET SALES)": "1564.00",
+            "TAXABLE AMOUNT": "1489.53",
+            "IGST": "0.00",
+            "CGST": "37.25",
+            "SGST": "37.25",
+            "BILL DETAILS": "",
+            "ITEM DETAILS": ""
+          },
+          {
+            "DESCRIPTION": "POS B2C",
+            "NO. OF RECORDS": "418",
+            "SUB TOTAL (NET SALES)": "1204808.39",
+            "TAXABLE AMOUNT": "1147436.31",
+            "IGST": "0.00",
+            "CGST": "28688.87",
+            "SGST": "28688.87",
+            "BILL DETAILS": "",
+            "ITEM DETAILS": ""
+          },
+          {
+            "DESCRIPTION": "SI B2B",
+            "NO. OF RECORDS": "0",
+            "SUB TOTAL (NET SALES)": "0.00",
+            "TAXABLE AMOUNT": "0.00",
+            "IGST": "0.00",
+            "CGST": "0.00",
+            "SGST": "0.00",
+            "BILL DETAILS": "",
+            "ITEM DETAILS": ""
+          },
+          {
+            "DESCRIPTION": "SR B2B",
+            "NO. OF RECORDS": "0",
+            "SUB TOTAL (NET SALES)": "0.00",
+            "TAXABLE AMOUNT": "0.00",
+            "IGST": "0.00",
+            "CGST": "0.00",
+            "SGST": "0.00",
+            "BILL DETAILS": "",
+            "ITEM DETAILS": ""
+          },
+          {
+            "DESCRIPTION": "Total",
+            "NO. OF RECORDS": "421.00",
+            "SUB TOTAL (NET SALES)": "1206372.39",
+            "TAXABLE AMOUNT": "1148925.84",
+            "IGST": "0.00",
+            "CGST": "28726.12",
+            "SGST": "28726.12",
+            "BILL DETAILS": "",
+            "ITEM DETAILS": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_GST_Summary.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Hsn Summary": {
+      "tables": [
+        [
+          {
+            "Type": "No data found",
+            "HSN": "",
+            "UoM": "",
+            "Tax Rate %": "",
+            "Qty": "",
+            "Sub Total (Net Sales)": "",
+            "Taxable Amount": "",
+            "IGST": "",
+            "CGST": "",
+            "SGST": ""
+          },
+          {
+            "Type": "Total",
+            "HSN": "0.00",
+            "UoM": "0.00",
+            "Tax Rate %": "0.00",
+            "Qty": "0.00",
+            "Sub Total (Net Sales)": "0.00",
+            "Taxable Amount": "0.00",
+            "IGST": "",
+            "CGST": "",
+            "SGST": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Hsn_Summary.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Customer Report": {
+      "tables": [
+        [
+          {
+            "cells": [
+              "Customer Name",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "Mobile No.",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "Contact ID",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "State",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "GSTIN",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "cells": [
+              "Date of First Sale",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "Location of First Sale",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "Date of Last Visit",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "Location of Last Visit",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "Total Sale Till Date",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "Location": "No Data Found",
+            "Inv No": "",
+            "Date": "",
+            "Bill Value": "",
+            "Taxable Value": "",
+            "Tax": ""
+          },
+          {
+            "Location": "Total",
+            "Inv No": "0.00",
+            "Date": "0.00",
+            "Bill Value": "0.00",
+            "Taxable Value": "",
+            "Tax": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Customer_Report.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Day End Report": {
+      "tables": [
+        [
+          {
+            "cells": [
+              "Date",
+              "Location",
+              "Cashier",
+              "Open At",
+              "Close At",
+              "Status",
+              "Opening Bal",
+              "Closing Bal",
+              "Expected Bal",
+              "Total Sales",
+              ""
+            ]
+          },
+          {
+            "cells": [
+              "No Data Found"
+            ]
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Day_End_Report.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Master Report": {
+      "tables": [
+        [
+          {
+            "Business Name": "Volume",
+            "JNR": "%",
+            "HSR": "Value",
+            "SF": "%",
+            "RRN": "Volume",
+            "Grand Total": "%"
+          },
+          {
+            "Business Name": "New customer",
+            "JNR": "-",
+            "HSR": "-",
+            "SF": "-",
+            "RRN": "-",
+            "Grand Total": "-"
+          },
+          {
+            "Business Name": "Repeat customer",
+            "JNR": "-",
+            "HSR": "-",
+            "SF": "-",
+            "RRN": "-",
+            "Grand Total": "-"
+          },
+          {
+            "Business Name": "Total",
+            "JNR": "-",
+            "HSR": "-",
+            "SF": "-",
+            "RRN": "-",
+            "Grand Total": "-"
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Master_Report.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Get Item Barcode": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Get_Item_Barcode.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Performance Report": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Reports_Performance_Report.png",
+      "error": null,
+      "modal_count": 0
+    }
+  },
+  "Communication": {
+    "Email Setup": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Communication_Email_Setup.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Whatsapp Setup": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Communication_Whatsapp_Setup.png",
+      "error": null,
+      "modal_count": 0
+    }
+  },
+  "Tools": {
+    "Image Link": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Tools_Image_Link.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Imports": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Tools_Imports.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Item Split": {
+      "tables": [
+        [
+          {
+            "Split Code": "SPI/26-27/121",
+            "Item Code": "7A3043",
+            "Item Name": "4-PU SLK",
+            "Is Complete": "Complete",
+            "Creator": "Abhishek JNR",
+            "Created At": "2026-07-23 18:12 PM",
+            "Action": ""
+          },
+          {
+            "Split Code": "SPI/26-27/120",
+            "Item Code": "234937",
+            "Item Name": "4-F-CTN",
+            "Is Complete": "Complete",
+            "Creator": "Abhishek JNR",
+            "Created At": "2026-07-23 17:01 PM",
+            "Action": ""
+          },
+          {
+            "Split Code": "SPI/26-27/119",
+            "Item Code": "7A1706",
+            "Item Name": "4-F-TSUE",
+            "Is Complete": "Complete",
+            "Creator": "Abhishek JNR",
+            "Created At": "2026-07-18 16:33 PM",
+            "Action": ""
+          },
+          {
+            "Split Code": "SPI/26-27/118",
+            "Item Code": "7A1714",
+            "Item Name": "4-IKKAT",
+            "Is Complete": "Complete",
+            "Creator": "Abhishek JNR",
+            "Created At": "2026-07-18 12:45 PM",
+            "Action": ""
+          },
+          {
+            "Split Code": "SPI/26-27/117",
+            "Item Code": "7A2255",
+            "Item Name": "4-VNS",
+            "Is Complete": "Complete",
+            "Creator": "Abhishek JNR",
+            "Created At": "2026-07-16 19:50 PM",
+            "Action": ""
+          },
+          {
+            "Split Code": "SPI/26-27/116",
+            "Item Code": "7A1717",
+            "Item Name": "4-IKKAT",
+            "Is Complete": "Complete",
+            "Creator": "Abhishek JNR",
+            "Created At": "2026-07-16 17:22 PM",
+            "Action": ""
+          },
+          {
+            "Split Code": "SPI/26-27/115",
+            "Item Code": "7A2094",
+            "Item Name": "4-PU SLK",
+            "Is Complete": "Complete",
+            "Creator": "Abhishek JNR",
+            "Created At": "2026-07-16 11:13 AM",
+            "Action": ""
+          },
+          {
+            "Split Code": "SPI/26-27/114",
+            "Item Code": "7A2093",
+            "Item Name": "4-PU SLK",
+            "Is Complete": "Complete",
+            "Creator": "Abhishek JNR",
+            "Created At": "2026-07-16 11:05 AM",
+            "Action": ""
+          },
+          {
+            "Split Code": "SPI/26-27/113",
+            "Item Code": "7A2068",
+            "Item Name": "4-PU SLK",
+            "Is Complete": "Complete",
+            "Creator": "Abhishek JNR",
+            "Created At": "2026-07-15 18:33 PM",
+            "Action": ""
+          },
+          {
+            "Split Code": "SPI/26-27/112",
+            "Item Code": "253916",
+            "Item Name": "4-PU SLK",
+            "Is Complete": "Complete",
+            "Creator": "Abhishek JNR",
+            "Created At": "2026-07-03 13:38 PM",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Tools_Item_Split.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Create New Barcode": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Tools_Create_New_Barcode.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Item Merge": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Tools_Item_Merge.png",
+      "error": null,
+      "modal_count": 0
+    }
+  },
+  "Voucher": {
+    "Receipt Vouchers": {
+      "tables": [
+        [
+          {
+            "Voucher Number": "No Data..",
+            "Date": "",
+            "Customer Name": "",
+            "Total Amount": "",
+            "Advance": "",
+            "Remark": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Voucher_Receipt_Vouchers.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Contra Vouchers": {
+      "tables": [
+        [
+          {
+            "Voucher Number": "No Data..",
+            "Date": "",
+            "To (Destination)": "",
+            "From (Source)": "",
+            "Total Amount": "",
+            "Remark": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Voucher_Contra_Vouchers.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Payment Vouchers": {
+      "tables": [
+        [
+          {
+            "Voucher Number": "No Data..",
+            "Date": "",
+            "Supplier Name": "",
+            "Total Amount": "",
+            "Settlement": "",
+            "Remark": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Voucher_Payment_Vouchers.png",
+      "error": null,
+      "modal_count": 0
+    }
+  },
+  "E-commerce": {
+    "Products": {
+      "tables": [
+        [
+          {
+            "Name": "",
+            "Item Code": "",
+            "HSN Code": "",
+            "Group": "",
+            "Sub Group": "",
+            "Stock": "",
+            "UOM": "",
+            "Action": ""
+          },
+          {
+            "Name": "",
+            "Item Code": "",
+            "HSN Code": "",
+            "Group": "",
+            "Sub Group": "",
+            "Stock": "",
+            "UOM": "",
+            "Action": ""
+          },
+          {
+            "Name": "",
+            "Item Code": "",
+            "HSN Code": "",
+            "Group": "",
+            "Sub Group": "",
+            "Stock": "",
+            "UOM": "",
+            "Action": ""
+          },
+          {
+            "Name": "",
+            "Item Code": "",
+            "HSN Code": "",
+            "Group": "",
+            "Sub Group": "",
+            "Stock": "",
+            "UOM": "",
+            "Action": ""
+          },
+          {
+            "Name": "",
+            "Item Code": "",
+            "HSN Code": "",
+            "Group": "",
+            "Sub Group": "",
+            "Stock": "",
+            "UOM": "",
+            "Action": ""
+          },
+          {
+            "Name": "",
+            "Item Code": "",
+            "HSN Code": "",
+            "Group": "",
+            "Sub Group": "",
+            "Stock": "",
+            "UOM": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\E-commerce_Products.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Orders": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\E-commerce_Orders.png",
+      "error": null,
+      "modal_count": 0
+    },
+    "Coupons": {
+      "tables": [
+        [
+          {
+            "Code": "No Data..",
+            "Discount Type": "",
+            "Discount Value": "",
+            "Minimum Order Amount": "",
+            "Max Coupon Vaue": "",
+            "Expire Date": "",
+            "Action": ""
+          }
+        ]
+      ],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\E-commerce_Coupons.png",
+      "error": null,
+      "modal_count": 0
+    }
+  },
+  "Accounts": {
+    "Change Password": {
+      "tables": [],
+      "modals": [],
+      "images": [],
+      "screenshot": "scraped_data\\screenshots\\Accounts_Change_Password.png",
+      "error": null,
+      "modal_count": 0
+    }
+  }
+}
