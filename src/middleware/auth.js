@@ -35,7 +35,11 @@ const protect = asyncHandler(async (req, res, next) => {
 
 // Only allow Anthropic-style super admins (Admin Portal)
 const superAdminOnly = (req, res, next) => {
-  if (!req.user || !req.user.isSuperAdmin) {
+  if (!req.user) {
+    res.status(401);
+    throw new Error('Not authorized');
+  }
+  if (!req.user.isSuperAdmin) {
     res.status(403);
     throw new Error('Access restricted to super admin');
   }

@@ -19,6 +19,20 @@ const moduleRegistrySeed = [
     ]
   },
   {
+    "moduleKey": "inventory/inventory/barcodeitem",
+    "section": "Inventory",
+    "label": "Barcode Item",
+    "pageType": "special",
+    "icon": "ScanBarcode",
+    "collectionName": "barcodes",
+    "columns": [],
+    "formFields": [],
+    "buttons": [],
+    "permissions": [
+      "inventory"
+    ]
+  },
+  {
     "moduleKey": "settings/setting/business",
     "section": "Settings",
     "label": "Business Masters",
@@ -1959,6 +1973,19 @@ const moduleRegistrySeed = [
     "buttons": [
       "Apply"
     ],
+    "permissions": [
+      "inventory"
+    ]
+  },
+  {
+    "moduleKey": "inventory/inventory/barcodeitem",
+    "section": "Inventory",
+    "label": "Barcode Items",
+    "pageType": "special",
+    "collectionName": "barcodeItems",
+    "columns": [],
+    "formFields": [],
+    "buttons": [],
     "permissions": [
       "inventory"
     ]
@@ -5485,6 +5512,134 @@ const moduleRegistrySeed = [
     ],
     "permissions": [
       "accounts"
+    ]
+  },
+  {
+    "moduleKey": "staff/roles",
+    "section": "Staff Management",
+    "label": "Roles",
+    "pageType": "master",
+    "collectionName": "roles",
+    "columns": [
+      { "key": "roleName", "label": "Role Name", "type": "text" },
+      { "key": "description", "label": "Description", "type": "text" },
+      { "key": "isActive", "label": "Is Active", "type": "boolean" },
+      { "key": "isSystemRole", "label": "System Role", "type": "boolean" },
+      { "key": "createdAt", "label": "Created At", "type": "date" }
+    ],
+    "formFields": [
+      { "key": "roleName", "label": "Role Name", "type": "text", "required": true },
+      { "key": "description", "label": "Description", "type": "textarea" },
+      { "key": "isActive", "label": "Is Active", "type": "checkbox", "default": true },
+      { "key": "permissions", "label": "Permissions", "type": "textarea", "helpText": "JSON format: [{module: 'inventory', actions: ['view', 'create', 'edit', 'delete']}]" }
+    ],
+    "buttons": [
+      "Search",
+      "Refresh",
+      "Column visibility",
+      "Export to CSV",
+      "Export to Excel",
+      "Export to PDF",
+      "ADD",
+      "Edit",
+      "Delete"
+    ],
+    "permissions": [
+      "staff"
+    ]
+  },
+  {
+    "moduleKey": "staff/staff",
+    "section": "Staff Management",
+    "label": "Staff",
+    "pageType": "master",
+    "collectionName": "staff",
+    "columns": [
+      { "key": "staffCode", "label": "Staff Code", "type": "text" },
+      { "key": "name", "label": "Name", "type": "text" },
+      { "key": "email", "label": "Email", "type": "text" },
+      { "key": "mobile", "label": "Mobile", "type": "text" },
+      { "key": "role", "label": "Role", "type": "text" },
+      { "key": "department", "label": "Department", "type": "text" },
+      { "key": "designation", "label": "Designation", "type": "text" },
+      { "key": "joiningDate", "label": "Joining Date", "type": "date" },
+      { "key": "isActive", "label": "Is Active", "type": "boolean" }
+    ],
+    "formFields": [
+      { "key": "name", "label": "Name", "type": "text", "required": true },
+      { "key": "email", "label": "Email", "type": "email", "required": true },
+      { "key": "mobile", "label": "Mobile", "type": "text" },
+      { "key": "role", "label": "Role", "type": "reference", "referenceModule": "staff/roles", "required": true },
+      { "key": "department", "label": "Department", "type": "text" },
+      { "key": "designation", "label": "Designation", "type": "text" },
+      { "key": "joiningDate", "label": "Joining Date", "type": "date" },
+      { "key": "salary", "label": "Salary", "type": "number" },
+      { "key": "allowLogin", "label": "Allow Login", "type": "checkbox", "default": false },
+      { "key": "isActive", "label": "Is Active", "type": "checkbox", "default": true },
+      { "key": "address.street", "label": "Street", "type": "text" },
+      { "key": "address.city", "label": "City", "type": "text" },
+      { "key": "address.state", "label": "State", "type": "text" },
+      { "key": "address.zipCode", "label": "Zip Code", "type": "text" },
+      { "key": "emergencyContact.name", "label": "Emergency Contact Name", "type": "text" },
+      { "key": "emergencyContact.phone", "label": "Emergency Contact Phone", "type": "text" }
+    ],
+    "buttons": [
+      "Search",
+      "Refresh",
+      "Column visibility",
+      "Export to CSV",
+      "Export to Excel",
+      "Export to PDF",
+      "ADD",
+      "Edit",
+      "Delete"
+    ],
+    "permissions": [
+      "staff"
+    ]
+  },
+  {
+    "moduleKey": "staff/salesperson",
+    "section": "Staff Management",
+    "label": "Sales Persons",
+    "pageType": "master",
+    "collectionName": "salespersons",
+    "columns": [
+      { "key": "spCode", "label": "SP Code", "type": "text" },
+      { "key": "spName", "label": "SP Name", "type": "text" },
+      { "key": "email", "label": "Email", "type": "text" },
+      { "key": "mobile", "label": "Mobile", "type": "text" },
+      { "key": "territory", "label": "Territory", "type": "text" },
+      { "key": "salesTarget", "label": "Sales Target", "type": "number" },
+      { "key": "commissionRate", "label": "Commission %", "type": "number" },
+      { "key": "isDefault", "label": "Is Default", "type": "boolean" },
+      { "key": "isActive", "label": "Is Active", "type": "boolean" }
+    ],
+    "formFields": [
+      { "key": "staff", "label": "Staff", "type": "reference", "referenceModule": "staff/staff", "required": true },
+      { "key": "spName", "label": "SP Name", "type": "text", "required": true },
+      { "key": "email", "label": "Email", "type": "email" },
+      { "key": "mobile", "label": "Mobile", "type": "text" },
+      { "key": "territory", "label": "Territory", "type": "text" },
+      { "key": "targetType", "label": "Target Type", "type": "select", "options": ["monthly", "quarterly", "yearly"], "default": "monthly" },
+      { "key": "salesTarget", "label": "Sales Target", "type": "number", "default": 0 },
+      { "key": "commissionRate", "label": "Commission Rate %", "type": "number", "default": 0 },
+      { "key": "isDefault", "label": "Is Default", "type": "checkbox", "default": false },
+      { "key": "isActive", "label": "Is Active", "type": "checkbox", "default": true }
+    ],
+    "buttons": [
+      "Search",
+      "Refresh",
+      "Column visibility",
+      "Export to CSV",
+      "Export to Excel",
+      "Export to PDF",
+      "ADD",
+      "Edit",
+      "Delete"
+    ],
+    "permissions": [
+      "staff"
     ]
   }
 ];

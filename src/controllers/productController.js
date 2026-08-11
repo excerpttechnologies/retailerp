@@ -139,4 +139,32 @@ const deleteProduct = asyncHandler(async (req, res) => {
   res.json({ success: true, message: 'Product deleted' });
 });
 
-module.exports = { createProduct, getProducts, getProductById, updateProduct, deleteProduct };
+// @desc  Bulk update product selling prices
+// @route POST /api/products/bulk-update-prices
+const bulkUpdatePrices = asyncHandler(async (req, res) => {
+  const { updates } = req.body; // [{ product, newPrice }]
+  if (!Array.isArray(updates) || updates.length === 0) {
+    res.status(400);
+    throw new Error('updates array is required');
+  }
+
+  const companyId = scopeCompany(req);
+  const results = [];
+  for (const u of updates) {
+    if (!u.product) continue;
+    const prod = await Product.findOne({ _id: u.product, company: companyId });
+    if (!prod) {
+      results.push({ product: u.product, ok: false, reason: 'not found' });
+      continue;
+    }
+    const oldPrice = prod.pricing?.sellingPrice ?? 0;
+    prod.pricing = prod.pricing || {};
+    prod.pricing.sellingPrice = Number(u.newPrice) || 0;
+    await prod.save();
+    results.push({ product: u.product, ok: true, oldPrice, newPrice: prod.pricing.sellingPrice });
+  }
+
+  res.json({ success: true, updated: results.filter((r) => r.ok).length, results });
+});
+
+module.exports = { createProduct, getProducts, getProductById, updateProduct, deleteProduct, bulkUpdatePrices };

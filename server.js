@@ -28,6 +28,8 @@ const dashboardRoutes = require('./src/routes/dashboardRoutes');
 const masterRoutes = require('./src/routes/masterRoutes');
 const auditLogRoutes = require('./src/routes/auditLogRoutes');
 const supplierRoutes = require('./src/routes/supplierRoutes');
+const contactsSupplierRoutes = require('./src/routes/contactsSupplierRoutes');
+const contactsCustomerRoutes = require('./src/routes/contactsCustomerRoutes');
 const purchaseOrderRoutes = require('./src/routes/purchaseOrderRoutes');
 const expenseRoutes = require('./src/routes/expenseRoutes');
 const paymentRoutes = require('./src/routes/paymentRoutes');
@@ -39,6 +41,13 @@ const serviceTicketRoutes = require('./src/routes/serviceTicketRoutes');
 const campaignRoutes = require('./src/routes/campaignRoutes');
 const documentRoutes = require('./src/routes/documentRoutes');
 const deliveryRoutes = require('./src/routes/deliveryRoutes');
+
+// --- Phase 1: Staff Management Module ---
+const staffRoutes = require('./src/routes/staffRoutes');
+const salesPersonRoutes = require('./src/routes/salesPersonRoutes');
+
+// --- Barcode Integration ---
+const barcodeRoutes = require('./src/routes/barcodeRoutes');
 
 const app = express();
 
@@ -91,6 +100,8 @@ const startServer = async () => {
 
     app.use('/api/master', masterRoutes);
     app.use('/api/audit-logs', auditLogRoutes);
+    app.use('/api/contacts/suppliers', contactsSupplierRoutes);
+    app.use('/api/contacts/customers', contactsCustomerRoutes);
     app.use('/api/suppliers', supplierRoutes);
     app.use('/api/purchase-orders', purchaseOrderRoutes);
     app.use('/api/expenses', expenseRoutes);
@@ -103,6 +114,13 @@ const startServer = async () => {
     app.use('/api/campaigns', campaignRoutes);
     app.use('/api/documents', documentRoutes);
     app.use('/api/deliveries', deliveryRoutes);
+
+    // Phase 1: Staff Management Module
+    app.use('/api/staff', staffRoutes);
+    app.use('/api/sales-persons', salesPersonRoutes);
+
+    // Barcode Integration
+    app.use('/api/barcodes', barcodeRoutes);
 
     app.use(notFound);
     app.use(errorHandler);

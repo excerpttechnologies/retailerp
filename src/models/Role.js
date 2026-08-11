@@ -1,34 +1,53 @@
 const mongoose = require('mongoose');
 
-const ACTIONS = [
-  'view', 'create', 'edit', 'delete', 'softDelete', 'restore',
-  'export', 'import', 'approve', 'reject', 'print', 'download',
-  'reports', 'dashboard', 'analytics', 'ai', 'settings', 'configure', 'manage',
-];
-
-const permissionSchema = new mongoose.Schema(
-  {
-    module: { type: String, required: true },
-    actions: { type: [String], default: [], enum: ACTIONS },
+const roleSchema = new mongoose.Schema({
+  company: { 
+    type: mongoose.Schema.Types.ObjectId, 
+    ref: 'Company', 
+    required: true,
+    index: true 
   },
-  { _id: false }
-);
-
-const roleSchema = new mongoose.Schema(
-  {
-    company: { type: mongoose.Schema.Types.ObjectId, ref: 'Company', required: true },
-    name: { type: String, required: true, trim: true },
-    description: { type: String, trim: true },
-    status: { type: String, enum: ['active', 'inactive'], default: 'active' },
-    isSystem: { type: Boolean, default: false },
-    permissions: { type: [permissionSchema], default: [] },
-    createdBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+  roleName: { 
+    type: String, 
+    required: true 
   },
-  { timestamps: true }
-);
+  description: { 
+    type: String 
+  },
+  permissions: [{
+    module: { type: String },
+    actions: [{ type: String }] // ['view', 'create', 'edit', 'delete']
+  }],
+  isActive: { 
+    type: Boolean, 
+    default: true 
+  },
+  isSystemRole: { 
+    type: Boolean, 
+    default: false 
+  }, // Cannot be deleted
+  createdBy: { 
+    type: mongoose.Schema.Types.ObjectId, 
+    ref: 'User' 
+  },
+  updatedBy: { 
+    type: mongoose.Schema.Types.ObjectId, 
+    ref: 'User' 
+  }
+}, {
+  timestamps: true
+});
 
-roleSchema.index({ company: 1, name: 1 }, { unique: true });
+// Index for faster lookups
+roleSchema.index({ company: 1, roleName: 1 });
+roleSchema.index({ company: 1, isActive: 1 });
 
-roleSchema.statics.ACTIONS = ACTIONS;
+// Prevent deletion of system roles
+roleSchema.pre('remove', function(next) {
+  if (this.isSystemRole) {
+    return next(new Error('System roles cannot be deleted'));
+  }
+  next();
+});
 
 module.exports = mongoose.model('Role', roleSchema);

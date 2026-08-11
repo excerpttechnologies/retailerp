@@ -1,0 +1,1376 @@
+{
+  "company": "Suvarna Fabrics",
+  "items": [
+    {
+      "name": "3PC -O",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "3PC -O",
+      "group": "3 PCS SUIT",
+      "subGroup": "3 PCS SUIT"
+    },
+    {
+      "name": "3PC-ASUIT",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "3PC-ASUIT",
+      "group": "3 PC SET",
+      "subGroup": "3 PC SET"
+    },
+    {
+      "name": "3PC-SUIT",
+      "itemType": "Simple",
+      "hsnCode": "551311",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "3PC-SUIT",
+      "group": "3 PCS SUIT",
+      "subGroup": "3 PCS SUIT"
+    },
+    {
+      "name": "BRDR",
+      "itemType": "Simple",
+      "hsnCode": "50072090",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "BRDR",
+      "group": "BORDER",
+      "subGroup": "Border"
+    },
+    {
+      "name": "DU- BATCH",
+      "itemType": "Simple",
+      "hsnCode": "",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "DU- BATCH",
+      "group": "DUPATTA",
+      "subGroup": "DUPATTA"
+    },
+    {
+      "name": "DU-P",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "DU-P",
+      "group": "DUPATTA",
+      "subGroup": "DUPATTA"
+    },
+    {
+      "name": "4-F-CTN",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-F-CTN",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-F-HKOBA",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-F-HKOBA",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-F-MNG",
+      "itemType": "Simple",
+      "hsnCode": "50079010",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-F-MNG",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-F-TSR",
+      "itemType": "Simple",
+      "hsnCode": "50072090",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-F-TSR",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-F-TSUE",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-F-TSUE",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-F-W BDR",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-F-W BDR",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-FGGT",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-FGGT",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-FORG",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-FORG",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-FX-BUTI",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-FX-BUTI",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-IKKAT",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-IKKAT",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-KIMKAB",
+      "itemType": "Simple",
+      "hsnCode": "50072090",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-KIMKAB",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-M.DECOR",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-M.DECOR",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-PU SLK",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-PU SLK",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-SRT",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-SRT",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-TNCHI",
+      "itemType": "Simple",
+      "hsnCode": "50072090",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-TNCHI",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-VELVT",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-VELVT",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-VNS",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-VNS",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-DPF",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-DPF",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-FA",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-FA",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-FA-O",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-FA-O",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-HBP",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-HBP",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-HWF",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-HWF",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-KAD",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-KAD",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-MPF",
+      "itemType": "Simple",
+      "hsnCode": "",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-MPF",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-NET-EMB",
+      "itemType": "Simple",
+      "hsnCode": "60051000",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-NET-EMB",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-OTH",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-OTH",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "4-PSWB",
+      "itemType": "Simple",
+      "hsnCode": "50072090",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-PSWB",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "IN-O",
+      "itemType": "Simple",
+      "hsnCode": "6209",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "IN-O",
+      "group": "INSKIRT",
+      "subGroup": "INSKIRT"
+    },
+    {
+      "name": "LB-O",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "LB-O",
+      "group": "READY BITS",
+      "subGroup": "LAST BITS"
+    },
+    {
+      "name": "9-PVD",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "9-PVD",
+      "group": "PAVADA",
+      "subGroup": "PAVADA"
+    },
+    {
+      "name": "9-PAV-P",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "9-PAV-P",
+      "group": "PAVADA",
+      "subGroup": "PAVADA"
+    },
+    {
+      "name": "10-PF-CHN",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PF-CHN",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PF-FRSLK",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PF-FRSLK",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PF-GGT",
+      "itemType": "Simple",
+      "hsnCode": "540710",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PF-GGT",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PF-ORG",
+      "itemType": "Simple",
+      "hsnCode": "540710",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PF-ORG",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PF-STN",
+      "itemType": "Simple",
+      "hsnCode": "540772",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PF-STN",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PF-TSUE",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PF-TSUE",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PFWBR",
+      "itemType": "Simple",
+      "hsnCode": "",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PFWBR",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PMNGL",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PMNGL",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10.CTNSLK-SL",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10.CTNSLK-SL",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-2*2BLK",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-2*2BLK",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-2BY2",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-2BY2",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-BUSYLIZZI",
+      "itemType": "Simple",
+      "hsnCode": "551511",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-BUSYLIZZI",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-CRPE-LIN",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-CRPE-LIN",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-CTNSLK",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-CTNSLK",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-LINING",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-LINING",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PFAB",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PFAB",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PFAB-O",
+      "itemType": "Simple",
+      "hsnCode": "551511",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PFAB-O",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PLNBTM",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PLNBTM",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PLNNET",
+      "itemType": "Simple",
+      "hsnCode": "60051000",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PLNNET",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PLNSRT",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PLNSRT",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PRAWSILK",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PRAWSILK",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PURESILK",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PURESILK",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-SATIN",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-SATIN",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-VELVET",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-VELVET",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "15-S-JPR",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S-JPR",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-S-KOL",
+      "itemType": "Simple",
+      "hsnCode": "55151130",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S-KOL",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-S-PLNSRT",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S-PLNSRT",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-SCTN",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-SCTN",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-SRT",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-SRT",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-SA",
+      "itemType": "Simple",
+      "hsnCode": "540710",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-SA",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-SA-O",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-SA-O",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "CRB",
+      "itemType": "Simple",
+      "hsnCode": "540710",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "CRB",
+      "group": "READY BITS",
+      "subGroup": "CRB"
+    },
+    {
+      "name": "SH-BIT",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "SH-BIT",
+      "group": "READY BITS",
+      "subGroup": "SHIRT BIT"
+    },
+    {
+      "name": "SRB",
+      "itemType": "Simple",
+      "hsnCode": "520841",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "SRB",
+      "group": "READY BITS",
+      "subGroup": "SRB"
+    },
+    {
+      "name": "SRB-O",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "SRB-O",
+      "group": "READY BITS",
+      "subGroup": "SRB"
+    },
+    {
+      "name": "4-VELVET",
+      "itemType": "Simple",
+      "hsnCode": "540710",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-VELVET",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "3 PC SET",
+      "itemType": "Simple",
+      "hsnCode": "520812",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "3 PC SET",
+      "group": "3 PCS SUIT",
+      "subGroup": "3 PCS SUIT"
+    },
+    {
+      "name": "4-FABRICS",
+      "itemType": "Simple",
+      "hsnCode": "540720",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-FABRICS",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "10-PLAIN FABRICS",
+      "itemType": "Simple",
+      "hsnCode": "540720",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PLAIN FABRICS",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "DUPATTA",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "DUPATTA",
+      "group": "DUPATTA",
+      "subGroup": "DU-O"
+    },
+    {
+      "name": "READY BITS PACK",
+      "itemType": "Simple",
+      "hsnCode": "54071011",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "READY BITS PACK",
+      "group": "READY BITS PACK",
+      "subGroup": "12-CMBO"
+    },
+    {
+      "name": "READYMADE",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "READYMADE",
+      "group": "READYMADE",
+      "subGroup": "13.PAS"
+    },
+    {
+      "name": "SAREE FALLS",
+      "itemType": "Simple",
+      "hsnCode": "520812",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "SAREE FALLS",
+      "group": "SAREE FALLS",
+      "subGroup": "SF-O"
+    },
+    {
+      "name": "SAREES",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "SAREES",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "SINGLE READY BIT",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "SINGLE READY BIT",
+      "group": "SINGLE READY BIT",
+      "subGroup": "CRB"
+    },
+    {
+      "name": "INSKIRT",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "INSKIRT",
+      "group": "INSKIRT",
+      "subGroup": "IN-O"
+    },
+    {
+      "name": "LAST BITS",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "LAST BITS",
+      "group": "LAST BITS",
+      "subGroup": "LB-O"
+    },
+    {
+      "name": "MAGTA SHALYA",
+      "itemType": "Simple",
+      "hsnCode": "540710",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "MAGTA SHALYA",
+      "group": "MAGTA SHALYA",
+      "subGroup": "MS"
+    },
+    {
+      "name": "MASK",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "MASK",
+      "group": "MASK",
+      "subGroup": "MA-O"
+    },
+    {
+      "name": "PAVADA",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "PAVADA",
+      "group": "PAVADA",
+      "subGroup": "PAV-O"
+    },
+    {
+      "name": "MS-O",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "MS-O",
+      "group": "MAGTA SHALYA",
+      "subGroup": "MAGTA SHALYA"
+    },
+    {
+      "name": "MS-NEW",
+      "itemType": "Simple",
+      "hsnCode": "540710",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "MS-NEW",
+      "group": "MAGTA SHALYA",
+      "subGroup": "MAGTA SHALYA"
+    },
+    {
+      "name": "MA-O",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "MA-O",
+      "group": "MASK",
+      "subGroup": "MASK"
+    },
+    {
+      "name": "9-PAV-O",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "9-PAV-O",
+      "group": "PAVADA",
+      "subGroup": "PAVADA"
+    },
+    {
+      "name": "10-PF-GPBT",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PF-GPBT",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "10-PF-FX-JTE",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PF-FX-JTE",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS SG"
+    },
+    {
+      "name": "12-CMBO",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "12-CMBO",
+      "group": "READY BITS",
+      "subGroup": "CRB"
+    },
+    {
+      "name": "RBP-O",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "RBP-O",
+      "group": "READY BITS PACK",
+      "subGroup": "READY BITS PACK"
+    },
+    {
+      "name": "13.PAS",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "13.PAS",
+      "group": "READYMADE",
+      "subGroup": "READYMADE"
+    },
+    {
+      "name": "RMG",
+      "itemType": "Simple",
+      "hsnCode": "540710",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "RMG",
+      "group": "READY MADE",
+      "subGroup": "READY MADE"
+    },
+    {
+      "name": "RM-O",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "RM-O",
+      "group": "READY MADE",
+      "subGroup": "READY MADE"
+    },
+    {
+      "name": "RM5",
+      "itemType": "Simple",
+      "hsnCode": "62059010",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "RM5",
+      "group": "READY MADE",
+      "subGroup": "READY MADE"
+    },
+    {
+      "name": "SF-O",
+      "itemType": "Simple",
+      "hsnCode": "520812",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "SF-O",
+      "group": "SAREE FALLS",
+      "subGroup": "SAREE FALLS"
+    },
+    {
+      "name": "15-BGM",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-BGM",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-IKKAT",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-IKKAT",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-ORG",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-ORG",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-PCRP",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-PCRP",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-S-2G-SA",
+      "itemType": "Simple",
+      "hsnCode": "50079010",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S-2G-SA",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-S-9YDS",
+      "itemType": "Simple",
+      "hsnCode": "540710",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S-9YDS",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-S-DFS",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S-DFS",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-S-DLI",
+      "itemType": "Simple",
+      "hsnCode": "521021",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S-DLI",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-S-ELI",
+      "itemType": "Simple",
+      "hsnCode": "540744",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S-ELI",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-S-KL",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S-KL",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-S-KOTTA",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S-KOTTA",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-S-PBNS",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S-PBNS",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-S-RWSLK",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S-RWSLK",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-S-SFTSLK",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S-SFTSLK",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-SGGT",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-SGGT",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-SSICO",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-SSICO",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-SVNS",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-SVNS",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-PLIN",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-PLIN",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-S GRDN",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S GRDN",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-S-TSR",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-S-TSR",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "15-SA-PURE",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-SA-PURE",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "3PC-O",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "3PC-O",
+      "group": "3 PC SET",
+      "subGroup": "3 PC SET"
+    },
+    {
+      "name": "110-PF-FRSLK",
+      "itemType": "Simple",
+      "hsnCode": "540710",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "110-PF-FRSLK",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS"
+    },
+    {
+      "name": "10.CNSLK-SL",
+      "itemType": "Simple",
+      "hsnCode": "50079010",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10.CNSLK-SL",
+      "group": "PLAIN FABRICS",
+      "subGroup": "PLAIN FABRICS"
+    },
+    {
+      "name": "15-S-DFT",
+      "itemType": "Simple",
+      "hsnCode": "500720",
+      "uom": "",
+      "prefix": "",
+      "itemCode": "15-S-DFT",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "10-FX-SLKY",
+      "itemType": "Simple",
+      "hsnCode": "540742",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-FX-SLKY",
+      "group": "FABRICS",
+      "subGroup": "PLAIN FABRICS"
+    },
+    {
+      "name": "15-S-CFN",
+      "itemType": "Simple",
+      "hsnCode": "551311",
+      "uom": "",
+      "prefix": "",
+      "itemCode": "15-S-CFN",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "10-PF-POPLN",
+      "itemType": "Simple",
+      "hsnCode": "520811",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-PF-POPLN",
+      "group": "FABRICS",
+      "subGroup": "PLAIN FABRICS"
+    },
+    {
+      "name": "PNT-BIT",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "PNT-BIT",
+      "group": "READY BITS",
+      "subGroup": "PANT BIT"
+    },
+    {
+      "name": "15-MIX SAREE",
+      "itemType": "Simple",
+      "hsnCode": "54071011",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-MIX SAREE",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    },
+    {
+      "name": "4-F-CRP",
+      "itemType": "Simple",
+      "hsnCode": "50072090",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "4-F-CRP",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "10-GPBT",
+      "itemType": "Simple",
+      "hsnCode": "52083121",
+      "uom": "Meters",
+      "prefix": "",
+      "itemCode": "10-GPBT",
+      "group": "FABRICS",
+      "subGroup": "FABRICS"
+    },
+    {
+      "name": "RM-LNG",
+      "itemType": "Simple",
+      "hsnCode": "630790",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "RM-LNG",
+      "group": "LEHANGAS",
+      "subGroup": "LEHANGAS"
+    },
+    {
+      "name": "3PCS-D-SUIT",
+      "itemType": "Simple",
+      "hsnCode": "540752",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "3PCS-D-SUIT",
+      "group": "3 PCS SUIT",
+      "subGroup": "3 PCS SUIT"
+    },
+    {
+      "name": "PCRB",
+      "itemType": "Simple",
+      "hsnCode": "500790",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "PCRB",
+      "group": "READY BITS",
+      "subGroup": "CRB"
+    },
+    {
+      "name": "FX-CRB",
+      "itemType": "Simple",
+      "hsnCode": "54072010",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "FX-CRB",
+      "group": "READY BITS",
+      "subGroup": "CRB"
+    },
+    {
+      "name": "15-uniform",
+      "itemType": "Simple",
+      "hsnCode": "54078470",
+      "uom": "Pieces",
+      "prefix": "",
+      "itemCode": "15-uniform",
+      "group": "SAREES",
+      "subGroup": "SAREES"
+    }
+  ],
+  "barcodeItems": []
+}

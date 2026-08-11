@@ -178,12 +178,23 @@ const getRecords = asyncHandler(async (req, res) => {
     throw new Error(`Module ${moduleKey} uses a bespoke page, not generic CRUD`);
   }
 
-  const { search, status, page = 1, limit = 20 } = req.query;
+  const { search, status, page = 1 } = req.query;
+  let { limit } = req.query;
   const company = await resolveCompany(req);
   const query = { company, moduleKey, isDeleted: { $ne: true } };
   if (status) query.status = status;
 
-  const skip = (Number(page) - 1) * Number(limit);
+  // Support returning all records when client requests: ?limit=all or ?limit=0 or ?top=true
+  const returnAll = limit === 'all' || limit === '0' || req.query.top === 'true';
+
+  // Normalize numeric limit; default to 20 when not provided or invalid
+  let numericLimit = 20;
+  if (!limit) numericLimit = 20;
+  else if (!returnAll) {
+    const n = Number(limit);
+    numericLimit = Number.isFinite(n) && n > 0 ? n : 20;
+  }
+
   let records = await MasterRecord.find(query).sort({ createdAt: -1 });
 
   if (search) {
@@ -192,12 +203,23 @@ const getRecords = asyncHandler(async (req, res) => {
   }
 
   const total = records.length;
-  const paged = records.slice(skip, skip + Number(limit));
+  let paged = [];
+  let pages = 0;
+
+  if (returnAll) {
+    paged = records;
+    pages = total > 0 ? 1 : 0;
+    numericLimit = total;
+  } else {
+    const skip = (Number(page) - 1) * numericLimit;
+    paged = records.slice(skip, skip + numericLimit);
+    pages = numericLimit > 0 ? Math.ceil(total / numericLimit) : 0;
+  }
 
   res.json({
     success: true,
     data: paged,
-    pagination: { total, page: Number(page), limit: Number(limit), pages: Math.ceil(total / limit) },
+    pagination: { total, page: Number(page), limit: numericLimit, pages },
   });
 });
 
