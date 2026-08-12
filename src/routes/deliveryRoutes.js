@@ -9,7 +9,7 @@ router.use(protect);
 
 router.route('/')
   .get(requirePermission('logistics', 'view'), getDeliveries)
-  .post(requirePermission('logistics', 'create'), createDelivery);
+  .post(requirePermission('logistics', 'create'), upload.single('proofOfDelivery'), createDelivery);
 router.patch('/:id/status', requirePermission('logistics', 'edit'), upload.single('proofOfDelivery'), updateDeliveryStatus);
 
 module.exports = router;

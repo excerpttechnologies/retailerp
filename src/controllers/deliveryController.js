@@ -9,9 +9,19 @@ const createDelivery = asyncHandler(async (req, res) => {
     res.status(400);
     throw new Error('sale and address are required');
   }
-  const delivery = await Delivery.create({
-    company: scopeCompany(req), sale, vehicle, driverName, address, notes, createdBy: req.user._id,
-  });
+  const deliveryPayload = {
+    company: scopeCompany(req),
+    sale,
+    vehicle,
+    driverName,
+    address,
+    notes,
+    createdBy: req.user._id,
+  };
+  if (req.file) {
+    deliveryPayload.proofOfDelivery = `/uploads/documents/${req.file.filename}`;
+  }
+  const delivery = await Delivery.create(deliveryPayload);
   res.status(201).json({ success: true, delivery });
 });
 
