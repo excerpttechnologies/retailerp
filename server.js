@@ -31,6 +31,8 @@ const supplierRoutes = require('./src/routes/supplierRoutes');
 const contactsSupplierRoutes = require('./src/routes/contactsSupplierRoutes');
 const contactsCustomerRoutes = require('./src/routes/contactsCustomerRoutes');
 const purchaseOrderRoutes = require('./src/routes/purchaseOrderRoutes');
+const purchaseRoutes = require('./src/routes/purchaseRoutes');
+const stockRoutes = require('./src/routes/stockRoutes');
 const expenseRoutes = require('./src/routes/expenseRoutes');
 const paymentRoutes = require('./src/routes/paymentRoutes');
 const employeeRoutes = require('./src/routes/employeeRoutes');
@@ -41,6 +43,7 @@ const serviceTicketRoutes = require('./src/routes/serviceTicketRoutes');
 const campaignRoutes = require('./src/routes/campaignRoutes');
 const documentRoutes = require('./src/routes/documentRoutes');
 const deliveryRoutes = require('./src/routes/deliveryRoutes');
+const parseRoutes = require('./src/routes/parseRoutes');
 
 // --- Phase 1: Staff Management Module ---
 const staffRoutes = require('./src/routes/staffRoutes');
@@ -103,7 +106,9 @@ const startServer = async () => {
     app.use('/api/contacts/suppliers', contactsSupplierRoutes);
     app.use('/api/contacts/customers', contactsCustomerRoutes);
     app.use('/api/suppliers', supplierRoutes);
+    app.use('/api/purchase', purchaseRoutes);
     app.use('/api/purchase-orders', purchaseOrderRoutes);
+    app.use('/api/stock', stockRoutes);
     app.use('/api/expenses', expenseRoutes);
     app.use('/api/payments', paymentRoutes);
     app.use('/api/employees', employeeRoutes);
@@ -114,6 +119,7 @@ const startServer = async () => {
     app.use('/api/campaigns', campaignRoutes);
     app.use('/api/documents', documentRoutes);
     app.use('/api/deliveries', deliveryRoutes);
+    app.use('/api/parse', parseRoutes);
 
     // Phase 1: Staff Management Module
     app.use('/api/staff', staffRoutes);

@@ -124,6 +124,74 @@ const validateFields = (moduleConfig, fields) => {
   }
 };
 
+const normalizeSelectorBusiness = (record) => {
+  const fields = record?.fields || {};
+  const businessName = fields.businessName || fields.name || '';
+  const normalized = {
+    _id: record?._id,
+    businessName,
+    name: businessName,
+    zipCode: fields.zipCode || '',
+    city: fields.city || '',
+    state: fields.state || '',
+    isActive: fields.isActive ?? record?.status === 'active',
+  };
+  return normalized;
+};
+
+const normalizeSelectorLocation = (record) => {
+  const fields = record?.fields || {};
+  const name = fields.name || '';
+  return {
+    _id: record?._id,
+    name,
+    city: fields.city || '',
+    state: fields.state || '',
+    zipCode: fields.zipCode || '',
+    business: fields.business || '',
+    businessName: fields.business || '',
+  };
+};
+
+const listBusinessSelector = asyncHandler(async (req, res) => {
+  const company = await resolveCompany(req);
+  const query = {
+    moduleKey: 'settings/setting/business',
+    isDeleted: { $ne: true },
+  };
+
+  if (company) query.company = company;
+
+  const records = await MasterRecord.find(query).sort({ 'fields.businessName': 1 }).select('_id fields status').lean();
+  const data = records
+    .map(normalizeSelectorBusiness)
+    .filter((item) => item.businessName && item.businessName.trim());
+
+  res.json({ success: true, data });
+});
+
+const listLocationsSelector = asyncHandler(async (req, res) => {
+  const company = await resolveCompany(req);
+  const businessName = req.query.businessName || req.query.business || '';
+  const query = {
+    moduleKey: 'settings/setting/companylocations',
+    isDeleted: { $ne: true },
+  };
+
+  if (company) query.company = company;
+
+  if (businessName) {
+    query['fields.business'] = businessName;
+  }
+
+  const records = await MasterRecord.find(query).sort({ 'fields.name': 1 }).select('_id fields status').lean();
+  const data = records
+    .map(normalizeSelectorLocation)
+    .filter((item) => item.name && item.name.trim());
+
+  res.json({ success: true, data });
+});
+
 // @desc  Create a record for a given dynamic module
 // @route POST /api/master/:moduleKey(*)
 const createRecord = asyncHandler(async (req, res) => {
@@ -290,4 +358,14 @@ const deleteRecord = asyncHandler(async (req, res) => {
   res.json({ success: true, message: 'Record deleted' });
 });
 
-module.exports = { getRegistry, createRecord, getRecords, getRecordById, updateRecord, deleteRecord, listModuleKeys };
+module.exports = {
+  getRegistry,
+  createRecord,
+  getRecords,
+  getRecordById,
+  updateRecord,
+  deleteRecord,
+  listBusinessSelector,
+  listLocationsSelector,
+  listModuleKeys,
+};
