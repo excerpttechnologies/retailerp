@@ -43,6 +43,8 @@ const serviceTicketRoutes = require('./src/routes/serviceTicketRoutes');
 const campaignRoutes = require('./src/routes/campaignRoutes');
 const documentRoutes = require('./src/routes/documentRoutes');
 const deliveryRoutes = require('./src/routes/deliveryRoutes');
+const transportRoutes = require('./src/routes/transportRoutes');
+const transportationRoutes = require('./src/routes/transportationRoutes');
 const parseRoutes = require('./src/routes/parseRoutes');
 
 // --- Phase 1: Staff Management Module ---
@@ -119,6 +121,8 @@ const startServer = async () => {
     app.use('/api/campaigns', campaignRoutes);
     app.use('/api/documents', documentRoutes);
     app.use('/api/deliveries', deliveryRoutes);
+    app.use('/api/logistic', transportRoutes);
+    app.use('/api/transportation', transportationRoutes);
     app.use('/api/parse', parseRoutes);
 
     // Phase 1: Staff Management Module

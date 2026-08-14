@@ -65,7 +65,25 @@ const moduleRegistrySeed = [
         "type": "text"
       }
     ],
-    "formFields": [],
+    "formFields": [
+      { "key": "businessName", "label": "Name", "type": "text", "required": true },
+      { "key": "businessPrintName", "label": "Business Print Name", "type": "text", "required": true, "placeholder": "Short Name" },
+      { "key": "landmark", "label": "Landmark", "type": "text" },
+      { "key": "city", "label": "City", "type": "select", "required": true, "placeholder": "Select City" },
+      { "key": "state", "label": "State", "type": "text", "disabled": true },
+      { "key": "country", "label": "Country", "type": "text", "disabled": true },
+      { "key": "zipCode", "label": "Zip Code", "type": "text", "required": true },
+      { "key": "addressLine1", "label": "Address line 1", "type": "text" },
+      { "key": "addressLine2", "label": "Address line 2", "type": "text" },
+      { "key": "mobile", "label": "Mobile", "type": "text" },
+      { "key": "alternateContactNumber", "label": "Alternate Contact Number", "type": "text" },
+      { "key": "email", "label": "Email", "type": "email" },
+      { "key": "websiteUrl", "label": "Website URL", "type": "text" },
+      { "key": "gstin", "label": "GSTIN", "type": "text", "required": true, "placeholder": "ex: 27ABCDE1234F1Z5" },
+      { "key": "isActive", "label": "Is Active", "type": "select", "required": true, "options": ["Active", "Inactive"], "default": "Active" },
+      { "key": "currency", "label": "Currency", "type": "select", "required": true, "options": ["INR", "USD", "EUR", "GBP", "AED"] },
+      { "key": "timezone", "label": "Timezone", "type": "select", "required": true, "options": ["Asia/Kolkata", "Asia/Dubai", "UTC", "America/New_York", "Europe/London"] }
+    ],
     "buttons": [
       "Search",
       "Refresh",
@@ -120,7 +138,23 @@ const moduleRegistrySeed = [
         "type": "text"
       }
     ],
-    "formFields": [],
+    "formFields": [
+      { "key": "name", "label": "Name", "type": "text", "required": true },
+      { "key": "businessPrintName", "label": "Business Print Name", "type": "text", "placeholder": "Short Name" },
+      { "key": "landmark", "label": "Landmark", "type": "text" },
+      { "key": "city", "label": "City", "type": "select", "required": true, "placeholder": "Select City" },
+      { "key": "state", "label": "State", "type": "text", "disabled": true },
+      { "key": "country", "label": "Country", "type": "text", "disabled": true },
+      { "key": "zipCode", "label": "Zip Code", "type": "text", "required": true },
+      { "key": "addressLine1", "label": "Address line 1", "type": "text" },
+      { "key": "addressLine2", "label": "Address line 2", "type": "text" },
+      { "key": "mobile", "label": "Mobile", "type": "text" },
+      { "key": "alternateContactNumber", "label": "Alternate Contact Number", "type": "text" },
+      { "key": "email", "label": "Email", "type": "email" },
+      { "key": "websiteUrl", "label": "Website URL", "type": "text" },
+      { "key": "gstin", "label": "GSTIN", "type": "text", "placeholder": "ex: 27ABCDE1234F1Z5" },
+      { "key": "termsConditions", "label": "Terms & Conditions", "type": "textarea" }
+    ],
     "buttons": [
       "Search",
       "Refresh",
@@ -213,7 +247,30 @@ const moduleRegistrySeed = [
         "type": "text"
       }
     ],
-    "formFields": [],
+    "formFields": [
+      { "key": "name", "label": "Name", "type": "text", "required": true },
+      { "key": "ledgerGroup", "label": "Ledger Group", "type": "select", "required": true, "refModule": "ledgergroups" },
+      { "key": "isActive", "label": "Is Active", "type": "select", "required": true, "options": ["Active", "Inactive"], "default": "Active" },
+      { "key": "default", "label": "Default", "type": "select", "required": true, "options": ["Yes", "No"], "default": "No" },
+      { "key": "openingBalance", "label": "Opening Balance", "type": "number", "required": true, "default": 0 },
+      { "key": "gstNo", "label": "GST No.", "type": "text", "placeholder": "ex: 27ABCDE1234F1Z5" },
+      { "key": "addressLine1", "label": "Address line 1", "type": "text" },
+      { "key": "addressLine2", "label": "Address line 2", "type": "text" },
+      { "key": "addressLine3", "label": "Address line 3", "type": "text" },
+      { "key": "zipCode", "label": "Zip Code", "type": "text" },
+      { "key": "mobile", "label": "Mobile", "type": "text" },
+      { "key": "alternateContactNumber", "label": "Alternate Contact Number", "type": "text" },
+      { "key": "landline", "label": "Landline", "type": "text" },
+      { "key": "fax", "label": "Fax", "type": "text" },
+      { "key": "email", "label": "Email", "type": "email" },
+      { "key": "email2", "label": "Email 2", "type": "email" },
+      { "key": "websiteUrl", "label": "Website URL", "type": "text" },
+      { "key": "city", "label": "City", "type": "select", "placeholder": "Select City" },
+      { "key": "state", "label": "State", "type": "text", "disabled": true },
+      { "key": "country", "label": "Country", "type": "text", "disabled": true },
+      { "key": "contactPerson", "label": "Contact Person", "type": "text" },
+      { "key": "contactPersonMobile", "label": "Contact Person Mobile", "type": "text" }
+    ],
     "buttons": [
       "Search",
       "Refresh",
@@ -355,7 +412,18 @@ const moduleRegistrySeed = [
         "type": "text"
       }
     ],
-    "formFields": [],
+    "formFields": [
+      { "key": "documentName", "label": "Document Name", "type": "text", "required": true },
+      { "key": "documentType", "label": "Document Type", "type": "select", "required": true, "options": ["Sales Invoice", "Purchase Invoice", "Sales Return", "Purchase Return", "Receipt Voucher", "Payment Voucher", "Contra Voucher", "Quotation", "Delivery Challan"] },
+      { "key": "description", "label": "Description", "type": "text" },
+      { "key": "prefix", "label": "Prefix", "type": "text", "required": true, "helpText": "Prefix Short Code: [MMM]=Short Month, [YY]=Short Year, [YYYY]=Year, [FYY]=Short Year-Year, [FYYYY]=Year-Year" },
+      { "key": "suffix", "label": "Suffix", "type": "text" },
+      { "key": "autoNumberLength", "label": "Auto Number Length", "type": "number", "required": true, "default": 0 },
+      { "key": "startFrom", "label": "Start From", "type": "text", "required": true },
+      { "key": "sample", "label": "Sample", "type": "text", "required": true, "disabled": true, "helpText": "Maximum 16 characters are allowed" },
+      { "key": "validity", "label": "Validity", "type": "select", "required": true, "options": ["Current Financial Year", "All Financial Years"] },
+      { "key": "finYear", "label": "Financial Year", "type": "text", "disabled": true }
+    ],
     "buttons": [
       "Search",
       "Refresh",
@@ -2199,27 +2267,108 @@ const moduleRegistrySeed = [
   {
     "moduleKey": "logistic/logistic/transport",
     "section": "Logistic",
-    "label": "Transport Master",
+    "label": "Transporter Master",
     "pageType": "master",
     "collectionName": "transportMaster",
     "columns": [
       {
-        "key": "name",
-        "label": "Name",
+        "key": "transporterName",
+        "label": "Transporter Name",
         "type": "text"
       },
       {
-        "key": "code",
-        "label": "Code",
+        "key": "transporterCode",
+        "label": "Transporter Code",
         "type": "text"
       },
       {
-        "key": "isActive",
-        "label": "Status",
-        "type": "checkbox"
+        "key": "gstNo",
+        "label": "GST No",
+        "type": "text"
+      },
+      {
+        "key": "contactNo",
+        "label": "Contact No",
+        "type": "text"
       }
     ],
-    "formFields": [],
+    "formFields": [
+      {
+        "key": "transporterName",
+        "label": "Transporter Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "transporterCode",
+        "label": "Transporter Code",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "gstNo",
+        "label": "GST No",
+        "type": "text"
+      },
+      {
+        "key": "contactNo",
+        "label": "Contact No",
+        "type": "text"
+      },
+      {
+        "key": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "key": "address",
+        "label": "Address",
+        "type": "textarea"
+      },
+      {
+        "key": "city",
+        "label": "City",
+        "type": "text"
+      },
+      {
+        "key": "state",
+        "label": "State",
+        "type": "text"
+      },
+      {
+        "key": "freight",
+        "label": "Freight Modes",
+        "type": "group",
+        "fields": [
+          {
+            "key": "toPay",
+            "label": "To Pay",
+            "type": "checkbox"
+          },
+          {
+            "key": "postPaid",
+            "label": "Post Paid",
+            "type": "checkbox"
+          },
+          {
+            "key": "paid",
+            "label": "Paid",
+            "type": "checkbox"
+          },
+          {
+            "key": "upiOrBankTrf",
+            "label": "UPI or Bank Transfer",
+            "type": "checkbox"
+          }
+        ]
+      },
+      {
+        "key": "gst",
+        "label": "Is GST Applicable",
+        "type": "select",
+        "options": ["yes", "no"]
+      }
+    ],
     "buttons": [
       "Search",
       "Refresh",
