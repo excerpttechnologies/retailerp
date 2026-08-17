@@ -648,6 +648,11 @@ const moduleRegistrySeed = [
         "type": "text"
       },
       {
+        "key": "numberLength",
+        "label": "Number Length",
+        "type": "text"
+      },
+      {
         "key": "sampleBarcode",
         "label": "Sample Barcode",
         "type": "text"
@@ -668,7 +673,67 @@ const moduleRegistrySeed = [
         "type": "text"
       }
     ],
-    "formFields": [],
+    "formFields": [
+      {
+        "key": "type",
+        "label": "Barcode Type",
+        "type": "select",
+        "options": ["Periodic", "Sequential"],
+        "required": true
+      },
+      {
+        "key": "subType",
+        "label": "Barcode Sub Type",
+        "type": "select",
+        "options": ["Yearly", "Quarterly", "Monthly"],
+        "required": true
+      },
+      {
+        "key": "prefix",
+        "label": "Prefix",
+        "type": "text"
+      },
+      {
+        "key": "suffix",
+        "label": "Suffix",
+        "type": "text"
+      },
+      {
+        "key": "startNumber",
+        "label": "Start Number",
+        "type": "number",
+        "required": true
+      },
+      {
+        "key": "numberLength",
+        "label": "Number Length",
+        "type": "number",
+        "required": true
+      },
+      {
+        "key": "sampleBarcode",
+        "label": "Sample Barcode",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "effectiveDate",
+        "label": "Effective Date",
+        "type": "date",
+        "required": true
+      },
+      {
+        "key": "expiryDate",
+        "label": "Expiry Date",
+        "type": "date",
+        "required": true
+      },
+      {
+        "key": "financialYear",
+        "label": "Financial Year",
+        "type": "text"
+      }
+    ],
     "buttons": [
       "Search",
       "Refresh",
